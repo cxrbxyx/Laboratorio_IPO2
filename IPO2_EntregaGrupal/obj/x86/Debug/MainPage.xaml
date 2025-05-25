@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="IPO2_EntregaGrupal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IPO2_EntregaGrupal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" 
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Button x:ConnectionId='4' x:Name="bt_Inicio" Content="Inicio" HorizontalAlignment="Stretch" Margin="5,5,5,5" />
+            <Button x:ConnectionId='5' x:Name="bt_MisPokemon" Content="Mis Pokemon" HorizontalAlignment="Stretch" Margin="5,5,5,5"                     />
+            <Button x:ConnectionId='6' x:Name="bt_Pokedex" Content="Pokedex" HorizontalAlignment="Stretch" Margin="5,5,5,5"                  />
+            <Button x:ConnectionId='7' x:Name="bt_Combate" Content="Combate" HorizontalAlignment="Stretch" Margin="5,5,5,5"                  />
+            <Button x:ConnectionId='8' x:Name="bt_Acercade" Content="Acerca de" HorizontalAlignment="Stretch" Margin="5,5,5,5" />
+        </StackPanel>
+        <Frame x:ConnectionId='2' x:Name="fmMain" Grid.Column="1" Grid.Row="1">
+            <Grid>
+                <TextBlock HorizontalAlignment="Center"  />
+                <local:DunsparcePCA x:ConnectionId='3' x:Name="ucDunsparce">
+                    
+                </local:DunsparcePCA>
+            </Grid>
+        </Frame>
+        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding}"/>
+    </Grid>
+</Page>
+
