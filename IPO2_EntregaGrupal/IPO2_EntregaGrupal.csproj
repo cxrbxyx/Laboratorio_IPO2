@@ -122,13 +122,16 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BulbasaurRH.xaml.cs">
+    <Compile Include="InfoPokemon.xaml.cs">
+      <DependentUpon>InfoPokemon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PokemonControls\BulbasaurRH.xaml.cs">
       <DependentUpon>BulbasaurRH.xaml</DependentUpon>
     </Compile>
     <Compile Include="CombatePage.xaml.cs">
       <DependentUpon>CombatePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DunsparcePCA.xaml.cs">
+    <Compile Include="PokemonControls\DunsparcePCA.xaml.cs">
       <DependentUpon>DunsparcePCA.xaml</DependentUpon>
     </Compile>
     <Compile Include="iPokemon.cs" />
@@ -141,8 +144,14 @@
     <Compile Include="PokedexPage.xaml.cs">
       <DependentUpon>PokedexPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PokemonControls\GengarJMC.xaml.cs">
+      <DependentUpon>GengarJMC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PokemonControls\SwabluSCP.xaml.cs">
+      <DependentUpon>SwabluSCP.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VictiniLDM.xaml.cs">
+    <Compile Include="PokemonControls\VictiniLDM.xaml.cs">
       <DependentUpon>VictiniLDM.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -152,70 +161,104 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AssetsBulbasurALC\arabn.png" />
-    <Content Include="AssetsBulbasurALC\bosque.png" />
-    <Content Include="AssetsBulbasurALC\Bostezo.mp3" />
-    <Content Include="AssetsBulbasurALC\bulbasaur.mp3" />
-    <Content Include="AssetsBulbasurALC\Cansado.mp3" />
-    <Content Include="AssetsBulbasurALC\corazon.png" />
-    <Content Include="AssetsBulbasurALC\Curación.mp3" />
-    <Content Include="AssetsBulbasurALC\Derrota.mp3" />
-    <Content Include="AssetsBulbasurALC\energia.png" />
-    <Content Include="AssetsBulbasurALC\Escudo.mp3" />
-    <Content Include="AssetsBulbasurALC\Golpe.mp3" />
-    <Content Include="AssetsBulbasurALC\Herido.mp3" />
-    <Content Include="AssetsBulbasurALC\lagrima.png" />
-    <Content Include="AssetsBulbasurALC\latigo.mp3" />
-    <Content Include="AssetsBulbasurALC\LockScreenLogo.scale-200.png" />
-    <Content Include="AssetsBulbasurALC\red-potion.png" />
-    <Content Include="AssetsBulbasurALC\SplashScreen.scale-200.png" />
-    <Content Include="AssetsBulbasurALC\Square150x150Logo.scale-200.png" />
-    <Content Include="AssetsBulbasurALC\Square44x44Logo.scale-200.png" />
-    <Content Include="AssetsBulbasurALC\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="AssetsBulbasurALC\StoreLogo.png" />
-    <Content Include="AssetsBulbasurALC\Wide310x150Logo.scale-200.png" />
-    <Content Include="AssetsBulbasurALC\yellow-potion.png" />
-    <Content Include="AssetsDunsparcePCA\burbujasVeneno.png" />
-    <Content Include="AssetsDunsparcePCA\corazon.png" />
-    <Content Include="AssetsDunsparcePCA\curacion.png" />
-    <Content Include="AssetsDunsparcePCA\curacion_soundEffect.mp3" />
-    <Content Include="AssetsDunsparcePCA\energia.png" />
-    <Content Include="AssetsDunsparcePCA\escudo.png" />
-    <Content Include="AssetsDunsparcePCA\escudo_soundEffect.mp3" />
-    <Content Include="AssetsDunsparcePCA\fondo.png" />
-    <Content Include="AssetsDunsparcePCA\imFlecha.png" />
-    <Content Include="AssetsDunsparcePCA\piedra.PNG" />
-    <Content Include="AssetsDunsparcePCA\piedras_soundEffect.mp3" />
-    <Content Include="AssetsDunsparcePCA\pocaVida_soundEffect.mp3" />
-    <Content Include="AssetsDunsparcePCA\red-potion.png" />
-    <Content Include="AssetsDunsparcePCA\veneno_soundEffect.mp3" />
-    <Content Include="AssetsDunsparcePCA\yellow-potion.png" />
-    <Content Include="AssetsVictiniLDM\bola de fuego.png" />
-    <Content Include="AssetsVictiniLDM\corazon.png" />
-    <Content Include="AssetsVictiniLDM\curacion.png" />
-    <Content Include="AssetsVictiniLDM\energia.png" />
-    <Content Include="AssetsVictiniLDM\escudo.png" />
-    <Content Include="AssetsVictiniLDM\espiral.png" />
-    <Content Include="AssetsVictiniLDM\explosion_1.mp3" />
-    <Content Include="AssetsVictiniLDM\fire-whoosh.mp3" />
-    <Content Include="AssetsVictiniLDM\fireworks.mp3" />
-    <Content Include="AssetsVictiniLDM\fondo.png" />
-    <Content Include="AssetsVictiniLDM\fuego-Photoroom.png" />
-    <Content Include="AssetsVictiniLDM\fuegos.mp3" />
-    <Content Include="AssetsVictiniLDM\llama.png" />
-    <Content Include="AssetsVictiniLDM\LockScreenLogo.scale-200.png" />
-    <Content Include="AssetsVictiniLDM\ojo_cerrado.png" />
-    <Content Include="AssetsVictiniLDM\pokemon-opening.mp3" />
-    <Content Include="AssetsVictiniLDM\rasguno.png" />
-    <Content Include="AssetsVictiniLDM\recovery.mp3" />
-    <Content Include="AssetsVictiniLDM\red-potion.png" />
-    <Content Include="AssetsVictiniLDM\SplashScreen.scale-200.png" />
-    <Content Include="AssetsVictiniLDM\Square150x150Logo.scale-200.png" />
-    <Content Include="AssetsVictiniLDM\Square44x44Logo.scale-200.png" />
-    <Content Include="AssetsVictiniLDM\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="AssetsVictiniLDM\StoreLogo.png" />
-    <Content Include="AssetsVictiniLDM\Wide310x150Logo.scale-200.png" />
-    <Content Include="AssetsVictiniLDM\yellow-potion.png" />
+    <Content Include="Assets\AssetsBulbasurALC\arabn.png" />
+    <Content Include="Assets\AssetsBulbasurALC\bosque.png" />
+    <Content Include="Assets\AssetsBulbasurALC\Bostezo.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\bulbasaur.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\Cansado.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\corazon.png" />
+    <Content Include="Assets\AssetsBulbasurALC\Curación.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\Derrota.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\energia.png" />
+    <Content Include="Assets\AssetsBulbasurALC\Escudo.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\Golpe.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\Herido.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\lagrima.png" />
+    <Content Include="Assets\AssetsBulbasurALC\latigo.mp3" />
+    <Content Include="Assets\AssetsBulbasurALC\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\AssetsBulbasurALC\red-potion.png" />
+    <Content Include="Assets\AssetsBulbasurALC\SplashScreen.scale-200.png" />
+    <Content Include="Assets\AssetsBulbasurALC\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\AssetsBulbasurALC\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\AssetsBulbasurALC\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\AssetsBulbasurALC\StoreLogo.png" />
+    <Content Include="Assets\AssetsBulbasurALC\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\AssetsBulbasurALC\yellow-potion.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\burbujasVeneno.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\corazon.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\curacion.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\curacion_soundEffect.mp3" />
+    <Content Include="Assets\AssetsDunsparcePCA\energia.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\escudo.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\escudo_soundEffect.mp3" />
+    <Content Include="Assets\AssetsDunsparcePCA\fondo.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\imFlecha.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\piedra.PNG" />
+    <Content Include="Assets\AssetsDunsparcePCA\piedras_soundEffect.mp3" />
+    <Content Include="Assets\AssetsDunsparcePCA\pocaVida_soundEffect.mp3" />
+    <Content Include="Assets\AssetsDunsparcePCA\red-potion.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\veneno_soundEffect.mp3" />
+    <Content Include="Assets\AssetsDunsparcePCA\yellow-potion.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Ataque_débil.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Ataque_fuerte %28mp3cut.net%29.mp3" />
+    <Content Include="Assets\AssetsSwabluSCP\corazon.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Derrotado.mp3" />
+    <Content Include="Assets\AssetsSwabluSCP\Débil.mp3" />
+    <Content Include="Assets\AssetsSwabluSCP\energia.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Escudo.mp3" />
+    <Content Include="Assets\AssetsSwabluSCP\Escudo.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Fondo_cielo.jpg" />
+    <Content Include="Assets\AssetsSwabluSCP\Herido.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Nube.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Rayo.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Recuperación.mp3" />
+    <Content Include="Assets\AssetsSwabluSCP\Recuperación.png" />
+    <Content Include="Assets\AssetsSwabluSCP\red-potion.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Tornado.png" />
+    <Content Include="Assets\AssetsSwabluSCP\Viento.mp3" />
+    <Content Include="Assets\AssetsSwabluSCP\yellow-potion.png" />
+    <Content Include="Assets\AssetstGengarJMC\corazon.png" />
+    <Content Include="Assets\AssetstGengarJMC\energia.png" />
+    <Content Include="Assets\AssetstGengarJMC\Fondo.jpg" />
+    <Content Include="Assets\AssetstGengarJMC\Fondo2.jpg" />
+    <Content Include="Assets\AssetstGengarJMC\mano_sombra.png" />
+    <Content Include="Assets\AssetstGengarJMC\Nubes.png" />
+    <Content Include="Assets\AssetstGengarJMC\red-potion.png" />
+    <Content Include="Assets\AssetstGengarJMC\Sounds\AtaqueDebil.mp3" />
+    <Content Include="Assets\AssetstGengarJMC\Sounds\AtaqueFuerte.mp3" />
+    <Content Include="Assets\AssetstGengarJMC\Sounds\Cansado.mp3" />
+    <Content Include="Assets\AssetstGengarJMC\Sounds\Curacion.mp3" />
+    <Content Include="Assets\AssetstGengarJMC\Sounds\Derrotado.mp3" />
+    <Content Include="Assets\AssetstGengarJMC\Sounds\Escudo.mp3" />
+    <Content Include="Assets\AssetstGengarJMC\Sounds\Herido.mp3" />
+    <Content Include="Assets\AssetstGengarJMC\tirita.png" />
+    <Content Include="Assets\AssetstGengarJMC\yellow-potion.png" />
+    <Content Include="Assets\AssetsVictiniLDM\bola de fuego.png" />
+    <Content Include="Assets\AssetsVictiniLDM\corazon.png" />
+    <Content Include="Assets\AssetsVictiniLDM\curacion.png" />
+    <Content Include="Assets\AssetsVictiniLDM\energia.png" />
+    <Content Include="Assets\AssetsVictiniLDM\escudo.png" />
+    <Content Include="Assets\AssetsVictiniLDM\espiral.png" />
+    <Content Include="Assets\AssetsVictiniLDM\explosion_1.mp3" />
+    <Content Include="Assets\AssetsVictiniLDM\fire-whoosh.mp3" />
+    <Content Include="Assets\AssetsVictiniLDM\fireworks.mp3" />
+    <Content Include="Assets\AssetsVictiniLDM\fondo.png" />
+    <Content Include="Assets\AssetsVictiniLDM\fuego-Photoroom.png" />
+    <Content Include="Assets\AssetsVictiniLDM\fuegos.mp3" />
+    <Content Include="Assets\AssetsVictiniLDM\llama.png" />
+    <Content Include="Assets\AssetsVictiniLDM\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\AssetsVictiniLDM\ojo_cerrado.png" />
+    <Content Include="Assets\AssetsVictiniLDM\pokemon-opening.mp3" />
+    <Content Include="Assets\AssetsVictiniLDM\rasguno.png" />
+    <Content Include="Assets\AssetsVictiniLDM\recovery.mp3" />
+    <Content Include="Assets\AssetsVictiniLDM\red-potion.png" />
+    <Content Include="Assets\AssetsVictiniLDM\SplashScreen.scale-200.png" />
+    <Content Include="Assets\AssetsVictiniLDM\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\AssetsVictiniLDM\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\AssetsVictiniLDM\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\AssetsVictiniLDM\StoreLogo.png" />
+    <Content Include="Assets\AssetsVictiniLDM\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\AssetsVictiniLDM\yellow-potion.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -234,7 +277,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="BulbasaurRH.xaml">
+    <Page Include="InfoPokemon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PokemonControls\BulbasaurRH.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -242,7 +289,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DunsparcePCA.xaml">
+    <Page Include="PokemonControls\DunsparcePCA.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -258,7 +305,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="VictiniLDM.xaml">
+    <Page Include="PokemonControls\GengarJMC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PokemonControls\SwabluSCP.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PokemonControls\VictiniLDM.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -267,9 +322,6 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DunsparcePCA.csproj" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

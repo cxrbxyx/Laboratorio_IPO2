@@ -5,6 +5,7 @@
     xmlns:local="using:IPO2_EntregaGrupal"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pokemonControls="using:IPO2_EntregaGrupal.PokemonControls"
     mc:Ignorable="d" 
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -25,13 +26,10 @@
             <Button x:Name="bt_Acercade" Content="Acerca de" HorizontalAlignment="Stretch" Margin="5,5,5,5" />
         </StackPanel>
         <Frame x:Name="fmMain" Grid.Column="1" Grid.Row="1">
-            <Grid>
-                <TextBlock HorizontalAlignment="Center"  />
-                <local:DunsparcePCA x:Name="ucDunsparce">
-                    
-                </local:DunsparcePCA>
+            <Grid VerticalAlignment="Top">
+                <TextBlock Text="Bienvenidos a IPOkemon" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="72"/>
+                <pokemonControls:DunsparcePCA x:Name="ucDunsparce" Margin="100,100,100,100" />
             </Grid>
         </Frame>
-        <TextBlock Grid.Column="1" Grid.Row="0" Text="{Binding}"/>
     </Grid>
 </Page>

@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="486,638,0,0" TextWrapping="Wrap" Text="MisPokemon" VerticalAlignment="Top"/>
 
     </Grid>
 </Page>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IPO2_EntregaGrupal
 {
-    interface iPokemon
+    public interface iPokemon
     {  
         double Vida { get; set; }
         double Energia { get; set; }
