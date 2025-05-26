@@ -11,38 +11,91 @@
     <Grid Margin="40">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="2*"/>
-        </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="Nombre" Margin="0,5"/>
-        <TextBox   Grid.Row="0" Grid.Column="1" Margin="10,5"/>
+        <!-- Botón para volver a la Pokédex -->
+        <Button x:Name="btnVolver" Content="⬅ Volver a la Pokédex" 
+                Click="btnVolver_Click" Margin="0,0,0,20" 
+                HorizontalAlignment="Left"/>
 
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="Categoría" Margin="0,5"/>
-        <TextBox   Grid.Row="1" Grid.Column="1" Margin="10,5"/>
+        <ScrollViewer Grid.Row="1" VerticalScrollMode="Auto">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="Tipo" Margin="0,5"/>
-        <TextBox   Grid.Row="2" Grid.Column="1" Margin="10,5"/>
+                <!-- Imagen del Pokémon -->
+                <Image x:Name="imgPokemon" Grid.Row="0" Grid.Column="0"
+                       Width="200" Height="200" Margin="0,0,20,20" 
+                       Stretch="Uniform" VerticalAlignment="Top"/>
 
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="Altura" Margin="0,5"/>
-        <TextBox   Grid.Row="3" Grid.Column="1" Margin="10,5"/>
+                <!-- Información del Pokémon -->
+                <Grid Grid.Row="0" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="4" Grid.Column="0" Text="Peso" Margin="0,5"/>
-        <TextBox   Grid.Row="4" Grid.Column="1" Margin="10,5"/>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Nombre:" FontWeight="Bold" Margin="0,5"/>
+                    <TextBlock x:Name="txtNombre" Grid.Row="0" Grid.Column="1" Margin="10,5"/>
 
-        <TextBlock Grid.Row="5" Grid.Column="0" Text="Evolucion" Margin="0,5"/>
-        <TextBox   Grid.Row="5" Grid.Column="1" Margin="10,5"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Categoría:" FontWeight="Bold" Margin="0,5"/>
+                    <TextBlock x:Name="txtCategoria" Grid.Row="1" Grid.Column="1" Margin="10,5"/>
 
-        <TextBlock Grid.Row="6" Grid.Column="0" Text="Descripcion" Margin="0,5"/>
-        <TextBox   Grid.Row="6" Grid.Column="1" Margin="10,5"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Tipo:" FontWeight="Bold" Margin="0,5"/>
+                    <TextBlock x:Name="txtTipo" Grid.Row="2" Grid.Column="1" Margin="10,5"/>
+
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Altura:" FontWeight="Bold" Margin="0,5"/>
+                    <TextBlock x:Name="txtAltura" Grid.Row="3" Grid.Column="1" Margin="10,5"/>
+
+                    <TextBlock Grid.Row="4" Grid.Column="0" Text="Peso:" FontWeight="Bold" Margin="0,5"/>
+                    <TextBlock x:Name="txtPeso" Grid.Row="4" Grid.Column="1" Margin="10,5"/>
+
+                    <TextBlock Grid.Row="5" Grid.Column="0" Text="Evolución:" FontWeight="Bold" Margin="0,5"/>
+                    <TextBlock x:Name="txtEvolucion" Grid.Row="5" Grid.Column="1" Margin="10,5"/>
+
+                    <TextBlock Grid.Row="6" Grid.Column="0" Text="Tipos:" FontWeight="Bold" Margin="0,5"/>
+                    <ItemsControl x:Name="icTipos" Grid.Row="6" Grid.Column="1" Margin="10,5">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal" Spacing="10"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding}" Width="40" Height="40"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Grid>
+
+                <!-- Descripción -->
+                <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,20,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="Descripción:" FontWeight="Bold" Margin="0,5"/>
+                    <TextBlock x:Name="txtDescripcion" Grid.Row="1" TextWrapping="Wrap" Margin="0,5"/>
+                </Grid>
+            </Grid>
+        </ScrollViewer>
     </Grid>
-
 </Page>

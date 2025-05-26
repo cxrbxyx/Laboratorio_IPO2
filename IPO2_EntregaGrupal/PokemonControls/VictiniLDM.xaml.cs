@@ -367,7 +367,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             set => this.pbEnergy.Value = value;
         }
         public string Nombre { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Categoría { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Categoria { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Tipo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public double Altura { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public double Peso { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }

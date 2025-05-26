@@ -100,7 +100,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
         public double Energia { get { return this.pbEnergia.Value; } set { this.pbEnergia.Value = value; } }
         public string Nombre { get { return this.tbNombrePokemon.Text; } set { this.tbNombrePokemon.Text = value; } }
-        public string Categoría
+        public string Categoria
         {
             get { return "Sombra"; }
             set { /* ... */ }

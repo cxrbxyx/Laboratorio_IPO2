@@ -11,12 +11,12 @@ namespace IPO2_EntregaGrupal
         double Vida { get; set; }
         double Energia { get; set; }
         string Nombre { get; set; } //Nombre del Pokemon
-        string Categoría { get; set; } //Gas, Murciélago, Ratón..
+        string Categoria { get; set; } //Gas, Murciélago, Ratón..
         string Tipo { get; set; } //Eléctrico, Veneno, Volador...
         double Altura { get; set; } // En metros
         double Peso { get; set; } // En kilos
         string Evolucion { get; set; } // Nombre de la evolución o evoluciones
-        string Descripcion { get; set; } // Entre 200 y 500 caracteres
+        string Descripcion { get; set; }// Entre 200 y 500 caracteres
         
         void verFondo(bool ver);
         void verFilaVida(bool ver);
@@ -38,4 +38,18 @@ namespace IPO2_EntregaGrupal
         void animacionNoHerido();
         void animacionDerrota();
     }
+    public interface iPokemonAdapter
+    {
+        string Nombre { get; set; } //Nombre del Pokemon
+        string Categoria { get; set; } //Gas, Murciélago, Ratón..
+        string Tipo { get; set; } //Eléctrico, Veneno, Volador...
+        double Altura { get; set; } // En metros
+        double Peso { get; set; } // En kilos
+        string Evolucion { get; set; } // Nombre de la evolución o evoluciones
+        string Descripcion { get; set; }
+        // Propiedades adicionales para la Pokédex
+        string Imagen { get; set; }
+        List<string> IconosTipo { get; set; }
+    }
+
 }

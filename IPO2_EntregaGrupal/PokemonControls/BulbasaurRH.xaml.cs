@@ -1,11 +1,9 @@
-﻿using IPO2_EntregaGrupal;
-using System;
+﻿using System;
 using System.Diagnostics;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 
 namespace IPO2_EntregaGrupal.PokemonControls
@@ -13,7 +11,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
     public sealed partial class BulbasaurRH : UserControl, iPokemon
 
     {
-        DispatcherTimer dtTime; 
+        DispatcherTimer dtTime;
         private bool estaHerido = false;
         private bool estaCansado = false;
         private bool estaDerrotado = false;
@@ -45,7 +43,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             set => pokemonNombre.Text = value;
         }
 
-        public string Categoría { get; set; }
+        public string Categoria { get; set; }
         public string Tipo { get; set; }
         public double Altura { get; set; }
         public double Peso { get; set; }
@@ -152,7 +150,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             dtTime.Start();
             imgPotionRed.Visibility = Visibility.Collapsed;
 
-            IniciarAnimacionDescanso(false); 
+            IniciarAnimacionDescanso(false);
         }
 
 
@@ -164,7 +162,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             dtTime.Start();
             imgPotionYellow.Visibility = Visibility.Collapsed;
 
-            IniciarAnimacionDescanso(false); 
+            IniciarAnimacionDescanso(false);
         }
 
 
@@ -172,7 +170,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
         public void IncreaseHealth(object sender, object e)
         {
-            if (pbHealth.Value < 100) 
+            if (pbHealth.Value < 100)
             {
                 pbHealth.Value += 2;
                 ReproducirSonido("Curación.mp3");
@@ -180,7 +178,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
             if (pbHealth.Value >= 100)
             {
-                pbHealth.Value = 100; 
+                pbHealth.Value = 100;
 
                 if (dtTime != null)
                 {
@@ -200,7 +198,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
         public void IncreaseEnergy(object sender, object e)
         {
-            if (pbEnergy.Value < 100) 
+            if (pbEnergy.Value < 100)
             {
                 pbEnergy.Value += 2;
                 ReproducirSonido("Curación.mp3");
@@ -208,7 +206,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
             if (pbEnergy.Value >= 100)
             {
-                pbEnergy.Value = 100; 
+                pbEnergy.Value = 100;
 
                 if (dtTime != null)
                 {
@@ -223,7 +221,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             estaHerido = false;
             estaCansado = false;
         }
-        private bool descansoPorTecla = false; 
+        private bool descansoPorTecla = false;
 
         private void IniciarAnimacionDescanso(bool activadoPorTecla)
         {
@@ -246,11 +244,11 @@ namespace IPO2_EntregaGrupal.PokemonControls
             if (descansoPorTecla)
             {
                 DispatcherTimer timer = new DispatcherTimer();
-                timer.Interval = TimeSpan.FromSeconds(4); 
+                timer.Interval = TimeSpan.FromSeconds(4);
                 timer.Tick += (s, args) =>
                 {
-                    timer.Stop(); 
-                    ActivarRecuperarDescanso(); 
+                    timer.Stop();
+                    ActivarRecuperarDescanso();
                 };
                 timer.Start();
             }
@@ -285,7 +283,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
                 Storyboard sb = this.FindName("Descanso") as Storyboard;
                 if (sb != null)
                 {
-                    sb.Stop(); 
+                    sb.Stop();
                 }
             });
 
@@ -301,7 +299,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
                 if (sb != null)
                 {
                     ReproducirSonido("Herido.mp3");
-                    sb.Stop(); 
+                    sb.Stop();
                     sb.Begin();
                 }
             });
@@ -313,7 +311,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
         {
             await Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
             {
-         
+
                 Storyboard sbHerido = this.FindName("Herido") as Storyboard;
                 if (sbHerido != null)
                 {
@@ -325,7 +323,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
                 if (sbDerrotado != null)
                 {
                     ReproducirSonido("Derrota.mp3");
-                    sbDerrotado.Stop(); 
+                    sbDerrotado.Stop();
                     sbDerrotado.Begin();
                 }
             });
@@ -340,7 +338,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
                     estaDerrotado = true;
                     AnimarDerrotado();
                 }
-                return; 
+                return;
             }
 
             if (estaDerrotado && pbHealth.Value > 0)
@@ -414,8 +412,8 @@ namespace IPO2_EntregaGrupal.PokemonControls
         {
             if (pbEnergy.Value >= 100)
             {
-                pbEnergy.Value = 100; 
-                ResetearEstado(); 
+                pbEnergy.Value = 100;
+                ResetearEstado();
             }
 
             if (pbEnergy.Value <= 30)
@@ -435,7 +433,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
 
 
-        
+
 
 
         public void ControlTeclas(object sender, KeyRoutedEventArgs e)
@@ -451,7 +449,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
                 case Windows.System.VirtualKey.Number3:
                     Escudo();
                     break;
-                case Windows.System.VirtualKey.Number4: 
+                case Windows.System.VirtualKey.Number4:
                     IniciarAnimacionDescanso(true);
                     break;
                 case Windows.System.VirtualKey.Number5:
@@ -470,32 +468,32 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
         public void EjecutarAtaqueFuerte()
         {
-            
+
             Storyboard sb = this.FindName("AtaqueFuerte1") as Storyboard;
             if (sb != null)
             {
-                
+
                 sb.Stop();
 
-                
+
                 sb.Begin();
 
-                
+
                 ReproducirSonido("bulbasaur.mp3");
 
-                
+
                 DispatcherTimer timer = new DispatcherTimer();
-                timer.Interval = TimeSpan.FromSeconds(1.5); 
+                timer.Interval = TimeSpan.FromSeconds(1.5);
                 timer.Tick += (s, args) =>
                 {
-                    timer.Stop(); 
-                    ReproducirSonido("Golpe.mp3"); 
+                    timer.Stop();
+                    ReproducirSonido("Golpe.mp3");
                 };
                 timer.Start();
             }
             else
             {
-                
+
                 Debug.WriteLine("No se encontró el Storyboard 'AtaqueFuerte1'.");
             }
         }
@@ -536,14 +534,14 @@ namespace IPO2_EntregaGrupal.PokemonControls
         {
             if (estaDerrotado) return;
 
-            
+
             Debug.WriteLine("🔄 Resetando el estado del Pokémon...");
 
             Storyboard sbHerido = this.FindName("Herido") as Storyboard;
             Storyboard sbCansado = this.FindName("Cansado") as Storyboard;
             Storyboard sbDescanso = this.FindName("Descanso") as Storyboard;
             Storyboard sbDerrotado = this.FindName("Derrotado") as Storyboard;
-            Storyboard sbIdle = this.FindName("animacion") as Storyboard; 
+            Storyboard sbIdle = this.FindName("animacion") as Storyboard;
 
             if (sbHerido != null) sbHerido.Stop();
             if (sbCansado != null) sbCansado.Stop();

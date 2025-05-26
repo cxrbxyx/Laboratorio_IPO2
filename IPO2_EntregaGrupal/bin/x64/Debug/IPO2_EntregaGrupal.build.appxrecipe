@@ -31,7 +31,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.26100.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\arabn.png">
@@ -220,6 +220,135 @@
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\yellow-potion.png">
       <PackagePath>Assets\AssetsVictiniLDM\yellow-potion.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\azumarill.png">
+      <PackagePath>Assets\Pokedex\azumarill.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\bulbasaur.png">
+      <PackagePath>Assets\Pokedex\bulbasaur.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\corphish.png">
+      <PackagePath>Assets\Pokedex\corphish.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\dunsparce.png">
+      <PackagePath>Assets\Pokedex\dunsparce.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\gardevoir.png">
+      <PackagePath>Assets\Pokedex\gardevoir.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\gengar.png">
+      <PackagePath>Assets\Pokedex\gengar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\geodude.png">
+      <PackagePath>Assets\Pokedex\geodude.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\golbat.png">
+      <PackagePath>Assets\Pokedex\golbat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\horsea.png">
+      <PackagePath>Assets\Pokedex\horsea.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\mimikyu.png">
+      <PackagePath>Assets\Pokedex\mimikyu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\oshawott.png">
+      <PackagePath>Assets\Pokedex\oshawott.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pachirisu.png">
+      <PackagePath>Assets\Pokedex\pachirisu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pichu.png">
+      <PackagePath>Assets\Pokedex\pichu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pignite.png">
+      <PackagePath>Assets\Pokedex\pignite.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\porygon.png">
+      <PackagePath>Assets\Pokedex\porygon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\psyduck.png">
+      <PackagePath>Assets\Pokedex\psyduck.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\regice.png">
+      <PackagePath>Assets\Pokedex\regice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\riolu.png">
+      <PackagePath>Assets\Pokedex\riolu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\rowlet.png">
+      <PackagePath>Assets\Pokedex\rowlet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\sprigatito.png">
+      <PackagePath>Assets\Pokedex\sprigatito.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\swablu.png">
+      <PackagePath>Assets\Pokedex\swablu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\victini.png">
+      <PackagePath>Assets\Pokedex\victini.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\wartortle.png">
+      <PackagePath>Assets\Pokedex\wartortle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\zygarde.png">
+      <PackagePath>Assets\Pokedex\zygarde.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Acero.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Acero.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Agua.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Agua.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_aire.png">
+      <PackagePath>Assets\Tipo_P\Tipo_aire.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Bicho.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Bicho.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Dragón.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Dragón.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Electrico.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Electrico.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Estelar.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Estelar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Fantasma.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Fantasma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Fuego.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Fuego.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hada.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Hada.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hielo.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Hielo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hierva.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Hierva.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Lucha.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Lucha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_normal.png">
+      <PackagePath>Assets\Tipo_P\Tipo_normal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Oscuridad.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Oscuridad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Phsiquico.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Phsiquico.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Roca.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Roca.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Tierra.png">
+      <PackagePath>Assets\Tipo_P\Tipo_Tierra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_veneno.png">
+      <PackagePath>Assets\Tipo_P\Tipo_veneno.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -355,6 +484,9 @@
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Fondo2.jpg">
       <PackagePath>Assets\AssetstGengarJMC\Fondo2.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\INICIO.jpg">
+      <PackagePath>Assets\INICIO.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -366,6 +498,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\AcercaDePage.xbf">
       <PackagePath>AcercaDePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\InfoPokemon.xbf">
+      <PackagePath>InfoPokemon.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\BulbasaurRH.xbf">
       <PackagePath>PokemonControls\BulbasaurRH.xbf</PackagePath>
@@ -394,7 +529,7 @@
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\VictiniLDM.xbf">
       <PackagePath>PokemonControls\VictiniLDM.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.26100.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\resources.pri">

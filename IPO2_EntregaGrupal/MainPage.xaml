@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:pokemonControls="using:IPO2_EntregaGrupal.PokemonControls"
     mc:Ignorable="d" 
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="Black">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -18,17 +18,45 @@
             <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Row="1" Grid.Column="0">
-            <Button x:Name="bt_Inicio" Content="Inicio" HorizontalAlignment="Stretch" Margin="5,5,5,5" />
-            <Button x:Name="bt_MisPokemon" Content="Mis Pokemon" HorizontalAlignment="Stretch" Margin="5,5,5,5" Click="irMisPokemon"/>
-            <Button x:Name="bt_Pokedex" Content="Pokedex" HorizontalAlignment="Stretch" Margin="5,5,5,5" Click="irPokedex"/>
-            <Button x:Name="bt_Combate" Content="Combate" HorizontalAlignment="Stretch" Margin="5,5,5,5" Click="irCombate"/>
-            <Button x:Name="bt_Acercade" Content="Acerca de" HorizontalAlignment="Stretch" Margin="5,5,5,5" />
+
+        <!-- Panel lateral de navegación -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Background="#222" Padding="10">
+            <Button x:Name="bt_Inicio" Content="Inicio" Margin="0,5" Style="{StaticResource CustomNavButtonStyle}" Click="irInicio"/>
+            <Button x:Name="bt_MisPokemon" Content="Mis Pokémon" Margin="0,5" Style="{StaticResource CustomNavButtonStyle}" Click="irMisPokemon"/>
+            <Button x:Name="bt_Pokedex" Content="Pokédex" Margin="0,5" Style="{StaticResource CustomNavButtonStyle}" Click="irPokedex"/>
+            <Button x:Name="bt_Combate" Content="Combate" Margin="0,5" Style="{StaticResource CustomNavButtonStyle}" Click="irCombate"/>
+            <Button x:Name="bt_Acercade" Content="Acerca de" Margin="0,5" Style="{StaticResource CustomNavButtonStyle}" Click="irAcercade"/>
         </StackPanel>
+
+        <!-- Contenido principal -->
         <Frame x:Name="fmMain" Grid.Column="1" Grid.Row="1">
-            <Grid VerticalAlignment="Top">
-                <TextBlock Text="Bienvenidos a IPOkemon" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="72"/>
-                <pokemonControls:DunsparcePCA x:Name="ucDunsparce" Margin="100,100,100,100" />
+            <Grid Background="Black">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="30">
+                    <TextBlock Text="Bienvenidos a IPOkemon"
+                               FontSize="60"
+                               FontWeight="Bold"
+                               Foreground="White"
+                               TextAlignment="Center"
+                               Margin="0,0,0,10"/>
+
+                    <Image Source="Assets/INICIO.jpg"
+                           Width="800"
+                           Stretch="Uniform"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,10"/>
+
+                    <Border Background="#FF1E1E1E"
+                            CornerRadius="10"
+                            Padding="20"
+                            MaxWidth="800"
+                            HorizontalAlignment="Center">
+                        <TextBlock Text="Explora el mundo Pokémon desde una nueva perspectiva. Consulta tu Pokédex, entrena a tus Pokémon favoritos, participa en combates y conviértete en el mejor entrenador de IPOkemon. ¡Prepárate para una aventura inolvidable!"
+                                   TextWrapping="Wrap"
+                                   FontSize="18"
+                                   Foreground="White"
+                                   TextAlignment="Center"/>
+                    </Border>
+                </StackPanel>
             </Grid>
         </Frame>
     </Grid>

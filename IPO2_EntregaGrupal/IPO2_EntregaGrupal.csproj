@@ -11,7 +11,7 @@
     <AssemblyName>IPO2_EntregaGrupal</AssemblyName>
     <DefaultLanguage>es-ES</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.26100.0</TargetPlatformVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -259,6 +259,50 @@
     <Content Include="Assets\AssetsVictiniLDM\StoreLogo.png" />
     <Content Include="Assets\AssetsVictiniLDM\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\AssetsVictiniLDM\yellow-potion.png" />
+    <Content Include="Assets\INICIO.jpg" />
+    <Content Include="Assets\Pokedex\azumarill.png" />
+    <Content Include="Assets\Pokedex\bulbasaur.png" />
+    <Content Include="Assets\Pokedex\corphish.png" />
+    <Content Include="Assets\Pokedex\dunsparce.png" />
+    <Content Include="Assets\Pokedex\gardevoir.png" />
+    <Content Include="Assets\Pokedex\gengar.png" />
+    <Content Include="Assets\Pokedex\geodude.png" />
+    <Content Include="Assets\Pokedex\golbat.png" />
+    <Content Include="Assets\Pokedex\horsea.png" />
+    <Content Include="Assets\Pokedex\mimikyu.png" />
+    <Content Include="Assets\Pokedex\oshawott.png" />
+    <Content Include="Assets\Pokedex\pachirisu.png" />
+    <Content Include="Assets\Pokedex\pichu.png" />
+    <Content Include="Assets\Pokedex\pignite.png" />
+    <Content Include="Assets\Pokedex\porygon.png" />
+    <Content Include="Assets\Pokedex\psyduck.png" />
+    <Content Include="Assets\Pokedex\regice.png" />
+    <Content Include="Assets\Pokedex\riolu.png" />
+    <Content Include="Assets\Pokedex\rowlet.png" />
+    <Content Include="Assets\Pokedex\sprigatito.png" />
+    <Content Include="Assets\Pokedex\swablu.png" />
+    <Content Include="Assets\Pokedex\victini.png" />
+    <Content Include="Assets\Pokedex\wartortle.png" />
+    <Content Include="Assets\Pokedex\zygarde.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Acero.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Agua.png" />
+    <Content Include="Assets\Tipo_P\Tipo_aire.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Bicho.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Dragón.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Electrico.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Estelar.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Fantasma.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Fuego.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Hada.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Hielo.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Hierva.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Lucha.png" />
+    <Content Include="Assets\Tipo_P\Tipo_normal.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Oscuridad.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Phsiquico.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Roca.png" />
+    <Content Include="Assets\Tipo_P\Tipo_Tierra.png" />
+    <Content Include="Assets\Tipo_P\Tipo_veneno.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -322,6 +366,9 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.14</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Strings\es-Es\Resources.resw" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

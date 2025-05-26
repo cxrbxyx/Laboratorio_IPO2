@@ -18,7 +18,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
         /// <summary>
         /// Connect()
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public void Connect(int connectionId, object target)
         {
@@ -26,493 +26,493 @@ namespace IPO2_EntregaGrupal.PokemonControls
             {
             case 2: // PokemonControls\VictiniLDM.xaml line 13
                 {
-                    this.mover_alas = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.mover_alas = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 3: // PokemonControls\VictiniLDM.xaml line 73
                 {
-                    this.ataque = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.ataque = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 4: // PokemonControls\VictiniLDM.xaml line 177
                 {
-                    this.ataque_debil = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.ataque_debil = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 5: // PokemonControls\VictiniLDM.xaml line 224
                 {
-                    this.curacion = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.curacion = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 6: // PokemonControls\VictiniLDM.xaml line 542
                 {
-                    this.escudo = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.escudo = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 7: // PokemonControls\VictiniLDM.xaml line 637
                 {
-                    this.herido = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.herido = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 8: // PokemonControls\VictiniLDM.xaml line 726
                 {
-                    this.cansado = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.cansado = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 9: // PokemonControls\VictiniLDM.xaml line 887
                 {
-                    this.derrotado = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.derrotado = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 10: // PokemonControls\VictiniLDM.xaml line 1084
                 {
-                    this.escudo_puesto = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.escudo_puesto = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 11: // PokemonControls\VictiniLDM.xaml line 1101
                 {
-                    this.estado_inicial = (global::Windows.UI.Xaml.Media.Animation.Storyboard)target;
+                    this.estado_inicial = (global::Windows.UI.Xaml.Media.Animation.Storyboard)(target);
                 }
                 break;
             case 12: // PokemonControls\VictiniLDM.xaml line 1160
                 {
-                    this.viewboxContenedor = (global::Windows.UI.Xaml.Controls.Viewbox)target;
+                    this.viewboxContenedor = (global::Windows.UI.Xaml.Controls.Viewbox)(target);
                 }
                 break;
             case 13: // PokemonControls\VictiniLDM.xaml line 1162
                 {
-                    this.gridPrincipal = (global::Windows.UI.Xaml.Controls.Grid)target;
+                    this.gridPrincipal = (global::Windows.UI.Xaml.Controls.Grid)(target);
                 }
                 break;
             case 14: // PokemonControls\VictiniLDM.xaml line 1178
                 {
-                    this.pbHealth = (global::Windows.UI.Xaml.Controls.ProgressBar)target;
+                    this.pbHealth = (global::Windows.UI.Xaml.Controls.ProgressBar)(target);
                 }
                 break;
             case 15: // PokemonControls\VictiniLDM.xaml line 1179
                 {
-                    this.imRPotion = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.imRPotion = (global::Windows.UI.Xaml.Controls.Image)(target);
                     ((global::Windows.UI.Xaml.Controls.Image)this.imRPotion).PointerReleased += this.usePotionRed;
                 }
                 break;
             case 16: // PokemonControls\VictiniLDM.xaml line 1181
                 {
-                    this.pbEnergy = (global::Windows.UI.Xaml.Controls.ProgressBar)target;
+                    this.pbEnergy = (global::Windows.UI.Xaml.Controls.ProgressBar)(target);
                 }
                 break;
             case 17: // PokemonControls\VictiniLDM.xaml line 1182
                 {
-                    this.imYPotion = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.imYPotion = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 18: // PokemonControls\VictiniLDM.xaml line 1183
                 {
-                    this.nombrePokemon = (global::Windows.UI.Xaml.Controls.TextBlock)target;
+                    this.nombrePokemon = (global::Windows.UI.Xaml.Controls.TextBlock)(target);
                 }
                 break;
             case 19: // PokemonControls\VictiniLDM.xaml line 1187
                 {
-                    this.pokemon = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.pokemon = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 20: // PokemonControls\VictiniLDM.xaml line 1199
                 {
-                    this.alas = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.alas = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 21: // PokemonControls\VictiniLDM.xaml line 1277
                 {
-                    this.fuego = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.fuego = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 22: // PokemonControls\VictiniLDM.xaml line 1290
                 {
-                    this.cuerpo_pies = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.cuerpo_pies = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 23: // PokemonControls\VictiniLDM.xaml line 1340
                 {
-                    this.cabeza1 = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.cabeza1 = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 24: // PokemonControls\VictiniLDM.xaml line 2183
                 {
-                    this.brazo_mano_derecha = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.brazo_mano_derecha = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 25: // PokemonControls\VictiniLDM.xaml line 2246
                 {
-                    this.brazo_mano_izquierda = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.brazo_mano_izquierda = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 26: // PokemonControls\VictiniLDM.xaml line 2280
                 {
-                    this.bola_de_fuego = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.bola_de_fuego = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 27: // PokemonControls\VictiniLDM.xaml line 2285
                 {
-                    this.escudo1 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.escudo1 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 28: // PokemonControls\VictiniLDM.xaml line 2286
                 {
-                    this.curacion1 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.curacion1 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 29: // PokemonControls\VictiniLDM.xaml line 2287
                 {
-                    this.llamas = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.llamas = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 30: // PokemonControls\VictiniLDM.xaml line 2288
                 {
-                    this.llama1_Copiar2 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.llama1_Copiar2 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 31: // PokemonControls\VictiniLDM.xaml line 2289
                 {
-                    this.llama2 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.llama2 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 32: // PokemonControls\VictiniLDM.xaml line 2290
                 {
-                    this.llama1_Copiar6 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.llama1_Copiar6 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 33: // PokemonControls\VictiniLDM.xaml line 2291
                 {
-                    this.llama1_Copiar7 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.llama1_Copiar7 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 34: // PokemonControls\VictiniLDM.xaml line 2292
                 {
-                    this.llama1_Copiar3 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.llama1_Copiar3 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 35: // PokemonControls\VictiniLDM.xaml line 2293
                 {
-                    this.llama1_Copiar4 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.llama1_Copiar4 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 36: // PokemonControls\VictiniLDM.xaml line 2294
                 {
-                    this.llama1_Copiar5 = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.llama1_Copiar5 = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 37: // PokemonControls\VictiniLDM.xaml line 2256
                 {
-                    this.mano_izquierda = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.mano_izquierda = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 38: // PokemonControls\VictiniLDM.xaml line 2275
                 {
-                    this.brazo_izquierdo = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.brazo_izquierdo = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 39: // PokemonControls\VictiniLDM.xaml line 2193
                 {
-                    this.brazo_derecho = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.brazo_derecho = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 40: // PokemonControls\VictiniLDM.xaml line 2229
                 {
-                    this.mano_derecha = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.mano_derecha = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 41: // PokemonControls\VictiniLDM.xaml line 2237
                 {
-                    this.pulgar = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.pulgar = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 42: // PokemonControls\VictiniLDM.xaml line 1344
                 {
-                    this.cabeza = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.cabeza = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 43: // PokemonControls\VictiniLDM.xaml line 1379
                 {
-                    this.rasguño = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.rasguño = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 44: // PokemonControls\VictiniLDM.xaml line 1384
                 {
-                    this.espiral_derecha = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.espiral_derecha = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 45: // PokemonControls\VictiniLDM.xaml line 1389
                 {
-                    this.espiral_izquierda = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.espiral_izquierda = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 46: // PokemonControls\VictiniLDM.xaml line 1394
                 {
-                    this.cabeza_Copiar = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.cabeza_Copiar = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 47: // PokemonControls\VictiniLDM.xaml line 1429
                 {
-                    this.boca_cerrada = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.boca_cerrada = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 48: // PokemonControls\VictiniLDM.xaml line 1435
                 {
-                    this.boca = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.boca = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 49: // PokemonControls\VictiniLDM.xaml line 1471
                 {
-                    this.diente_izquierdo = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.diente_izquierdo = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 50: // PokemonControls\VictiniLDM.xaml line 1507
                 {
-                    this.diente_derecho = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.diente_derecho = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 51: // PokemonControls\VictiniLDM.xaml line 1543
                 {
-                    this.lengua = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.lengua = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 52: // PokemonControls\VictiniLDM.xaml line 1546
                 {
-                    this.ojo_izquierdo_cerrado = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.ojo_izquierdo_cerrado = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 53: // PokemonControls\VictiniLDM.xaml line 1551
                 {
-                    this.ojo_derecho_cerrado = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.ojo_derecho_cerrado = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 54: // PokemonControls\VictiniLDM.xaml line 1556
                 {
-                    this.parpado_derecho_morado = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.parpado_derecho_morado = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 55: // PokemonControls\VictiniLDM.xaml line 1589
                 {
-                    this.parpado_derecho_cansado = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.parpado_derecho_cansado = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 56: // PokemonControls\VictiniLDM.xaml line 1622
                 {
-                    this.ojo_derecho_cansado = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.ojo_derecho_cansado = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 57: // PokemonControls\VictiniLDM.xaml line 1637
                 {
-                    this.iris_derecho_cansado = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.iris_derecho_cansado = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 58: // PokemonControls\VictiniLDM.xaml line 1638
                 {
-                    this.pupila_derecha_cansado = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.pupila_derecha_cansado = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 59: // PokemonControls\VictiniLDM.xaml line 1641
                 {
-                    this.borde_ojo_derecho_cansado = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_ojo_derecho_cansado = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 60: // PokemonControls\VictiniLDM.xaml line 1656
                 {
-                    this.parpado_izquierdo_cansado = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.parpado_izquierdo_cansado = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 61: // PokemonControls\VictiniLDM.xaml line 1689
                 {
-                    this.borde_ojo_izquierdo_cansado = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_ojo_izquierdo_cansado = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 62: // PokemonControls\VictiniLDM.xaml line 1704
                 {
-                    this.ojo_izquierdo_cansado = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.ojo_izquierdo_cansado = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 63: // PokemonControls\VictiniLDM.xaml line 1719
                 {
-                    this.iris_izquierdo_cansado = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.iris_izquierdo_cansado = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 64: // PokemonControls\VictiniLDM.xaml line 1734
                 {
-                    this.pupula_izquierda_cansado = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.pupula_izquierda_cansado = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 65: // PokemonControls\VictiniLDM.xaml line 1750
                 {
-                    this.ojo_derecho = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.ojo_derecho = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 66: // PokemonControls\VictiniLDM.xaml line 1784
                 {
-                    this.iris_derecho = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.iris_derecho = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 67: // PokemonControls\VictiniLDM.xaml line 1788
                 {
-                    this.pupila_derecha = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.pupila_derecha = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 68: // PokemonControls\VictiniLDM.xaml line 1792
                 {
-                    this.borde_ojo_derecho = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.borde_ojo_derecho = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 69: // PokemonControls\VictiniLDM.xaml line 1826
                 {
-                    this.ojo_izquierdo = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.ojo_izquierdo = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 70: // PokemonControls\VictiniLDM.xaml line 1860
                 {
-                    this.iris_izquierdo = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.iris_izquierdo = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 71: // PokemonControls\VictiniLDM.xaml line 1894
                 {
-                    this.sombra_oreja_derecha = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.sombra_oreja_derecha = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 72: // PokemonControls\VictiniLDM.xaml line 1930
                 {
-                    this.pupula_izquierda = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.pupula_izquierda = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 73: // PokemonControls\VictiniLDM.xaml line 1964
                 {
-                    this.borde_ojo_izquierdo = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.borde_ojo_izquierdo = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 74: // PokemonControls\VictiniLDM.xaml line 1998
                 {
-                    this.oreja_derecha = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.oreja_derecha = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 75: // PokemonControls\VictiniLDM.xaml line 2034
                 {
-                    this.borde_oreja_derecha = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_oreja_derecha = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 76: // PokemonControls\VictiniLDM.xaml line 2038
                 {
-                    this.cresta = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.cresta = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 77: // PokemonControls\VictiniLDM.xaml line 2074
                 {
-                    this.borde_cresta = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_cresta = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 78: // PokemonControls\VictiniLDM.xaml line 2110
                 {
-                    this.nariz = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.nariz = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 79: // PokemonControls\VictiniLDM.xaml line 2146
                 {
-                    this.sombra_cresta_1 = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.sombra_cresta_1 = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 80: // PokemonControls\VictiniLDM.xaml line 1291
                 {
-                    this.pie_izquierdo = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.pie_izquierdo = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 81: // PokemonControls\VictiniLDM.xaml line 1302
                 {
-                    this.pie_derecho = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.pie_derecho = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 82: // PokemonControls\VictiniLDM.xaml line 1313
                 {
-                    this.cuerpo = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.cuerpo = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 83: // PokemonControls\VictiniLDM.xaml line 1314
                 {
-                    this.borde_pie_derecho = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_pie_derecho = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 84: // PokemonControls\VictiniLDM.xaml line 1315
                 {
-                    this.borde_cuerpo_1 = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_cuerpo_1 = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 85: // PokemonControls\VictiniLDM.xaml line 1316
                 {
-                    this.borde_cuerpo_2 = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_cuerpo_2 = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 86: // PokemonControls\VictiniLDM.xaml line 1317
                 {
-                    this.borde_pie_izquierdo = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_pie_izquierdo = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 87: // PokemonControls\VictiniLDM.xaml line 1328
                 {
-                    this.sombra_cuerpo = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.sombra_cuerpo = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 88: // PokemonControls\VictiniLDM.xaml line 1329
                 {
-                    this.sombra_cuello_brazo = (global::Windows.UI.Xaml.Shapes.Ellipse)target;
+                    this.sombra_cuello_brazo = (global::Windows.UI.Xaml.Shapes.Ellipse)(target);
                 }
                 break;
             case 89: // PokemonControls\VictiniLDM.xaml line 1278
                 {
-                    this.fuego_izquierdo = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.fuego_izquierdo = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 90: // PokemonControls\VictiniLDM.xaml line 1283
                 {
-                    this.fuego_derecho = (global::Windows.UI.Xaml.Controls.Image)target;
+                    this.fuego_derecho = (global::Windows.UI.Xaml.Controls.Image)(target);
                 }
                 break;
             case 91: // PokemonControls\VictiniLDM.xaml line 1200
                 {
-                    this.ala_derecha_entera = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.ala_derecha_entera = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 92: // PokemonControls\VictiniLDM.xaml line 1233
                 {
-                    this.ala_izquierda_entera = (global::Windows.UI.Xaml.Controls.Canvas)target;
+                    this.ala_izquierda_entera = (global::Windows.UI.Xaml.Controls.Canvas)(target);
                 }
                 break;
             case 93: // PokemonControls\VictiniLDM.xaml line 1238
                 {
-                    this.ala_izquierda = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.ala_izquierda = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 94: // PokemonControls\VictiniLDM.xaml line 1254
                 {
-                    this.sombra_ala_izquierda = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.sombra_ala_izquierda = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 95: // PokemonControls\VictiniLDM.xaml line 1270
                 {
-                    this.borde_ala_izquierda = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_ala_izquierda = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 96: // PokemonControls\VictiniLDM.xaml line 1204
                 {
-                    this.ala_derecha = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.ala_derecha = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 97: // PokemonControls\VictiniLDM.xaml line 1220
                 {
-                    this.borde_ala_derecha_1 = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_ala_derecha_1 = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 98: // PokemonControls\VictiniLDM.xaml line 1224
                 {
-                    this.borde_ala_derecha_2 = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_ala_derecha_2 = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             case 99: // PokemonControls\VictiniLDM.xaml line 1228
                 {
-                    this.borde_ala_derecha_3 = (global::Windows.UI.Xaml.Shapes.Path)target;
+                    this.borde_ala_derecha_3 = (global::Windows.UI.Xaml.Shapes.Path)(target);
                 }
                 break;
             default:
@@ -524,7 +524,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
         /// <summary>
         /// GetBindingConnector(int connectionId, object target)
         /// </summary>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 0.0.0.0")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Windows.UI.Xaml.Markup.IComponentConnector GetBindingConnector(int connectionId, object target)
         {

@@ -9,8 +9,30 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="754,459,0,0" TextWrapping="Wrap" Text="Combate" VerticalAlignment="Top"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="10">
 
+            <TextBlock x:ConnectionId='2' x:Name="NombreJugador" Text="Pikachu" FontSize="24" HorizontalAlignment="Center"/>
+            <ProgressBar x:ConnectionId='3' x:Name="VidaJugador" Value="100" Maximum="100" Width="200" Height="20"/>
+
+            <TextBlock x:ConnectionId='4' x:Name="NombreEnemigo" Text="Charmander" FontSize="24" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+            <ProgressBar x:ConnectionId='5' x:Name="VidaEnemigo" Value="100" Maximum="100" Width="200" Height="20"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10" Margin="0,30,0,0">
+                <Button x:ConnectionId='8' x:Name="BtnAtacar" Content="Atacar"                        />
+                <Button x:ConnectionId='9' x:Name="BtnDefender" Content="Defender"                          />
+            </StackPanel>
+
+            <TextBlock x:ConnectionId='6' x:Name="TextoCombate"
+                       Text="Texto de inicio"
+                       TextWrapping="Wrap"
+                       TextAlignment="Center"
+                       Margin="0,20,0,0"
+                       Width="300"/>
+
+            <MediaElement x:ConnectionId='7' x:Name="NarradorElemento"
+                          AutoPlay="False"
+                          Visibility="Collapsed"/>
+        </StackPanel>
     </Grid>
 </Page>
 

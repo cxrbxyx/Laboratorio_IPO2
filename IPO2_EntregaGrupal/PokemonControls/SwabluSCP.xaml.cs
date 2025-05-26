@@ -56,7 +56,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             set => PokemonNameTextBlock.Text = value;
         }
 
-        public string Categoría
+        public string Categoria
         {
             get => "Pájaro Algodón";
             set { }

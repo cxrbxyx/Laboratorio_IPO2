@@ -5,24 +5,84 @@
     xmlns:local="using:IPO2_EntregaGrupal"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:pokemonControls="using:IPO2_EntregaGrupal.PokemonControls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-        <pokemonControls:BulbasaurRH x:Name="ucBulbasaur" Grid.Row="0" Grid.Column="0" Margin="10,10,10,10" />
-        <pokemonControls:GengarJMC x:Name="ucGengar" Grid.Row="0" Grid.Column="1" Margin="10,10,10,10" />
-        <pokemonControls:VictiniLDM x:Name="ucVictini" Grid.Row="0" Grid.Column="2" Margin="10,10,10,10" />
-        <pokemonControls:SwabluSCP x:Name="ucSwablu" Grid.Row="1" Grid.Column="0" Margin="10,10,10,10" />
-        <pokemonControls:DunsparcePCA x:Name="ucDunsparce" Grid.Row="1" Grid.Column="1" Margin="10,10,10,10" />
+
+        <TextBlock Grid.Row="0" Text="Pokédex" FontSize="36" FontWeight="Bold" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,10"/>
+
+        <Grid Grid.Row="1" Margin="20,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="txtBuscar" Grid.Column="0" PlaceholderText="Buscar Pokémon..." 
+                     FontSize="18" Margin="0,0,10,0" TextChanged="txtBuscar_TextChanged"/>
+
+            <ComboBox x:Name="cbTipos" Grid.Column="1" PlaceholderText="Filtrar por tipo" 
+                      FontSize="18" Margin="0,0,10,0" MinWidth="150" SelectionChanged="cbTipos_SelectionChanged"/>
+
+            <Button x:Name="btnLimpiar" Grid.Column="2" Content="Limpiar filtros" 
+                    FontSize="18" Click="btnLimpiar_Click"/>
+        </Grid>
+
+        <ListView x:Name="lvPokedex" Grid.Row="2" Margin="20" SelectionMode="Single"
+                  IsItemClickEnabled="True" ItemClick="lvPokedex_ItemClick">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="Margin" Value="0,5"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="5" Background="#19000000" BorderBrush="#33000000" BorderThickness="1" CornerRadius="8">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Imagen del Pokémon -->
+                        <Image Grid.Column="0" Source="{Binding Imagen}" Width="100" Height="100" 
+                               Margin="10" VerticalAlignment="Center"/>
+
+                        <!-- Información del Pokémon -->
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="10,0">
+                            <TextBlock Text="{Binding Nombre}" FontSize="24" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Tipo}" FontSize="18" Opacity="0.8"/>
+                            <TextBlock Text="{Binding Categoría}" FontSize="16" Opacity="0.7"/>
+
+                            <!-- Iconos de tipo -->
+                            <ItemsControl ItemsSource="{Binding IconosTipo}" Margin="0,5,0,0">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <StackPanel Orientation="Horizontal" Spacing="5"/>
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding}" Width="30" Height="30"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+
+                        <!-- Botón de información -->
+                        <Button Grid.Column="2" Content="Info" Tag="{Binding}" Margin="10" 
+                                VerticalAlignment="Center" Click="Info_Click"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>

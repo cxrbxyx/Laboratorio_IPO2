@@ -1,27 +1,16 @@
-﻿using IPO2_EntregaGrupal;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
+﻿using System;
 using System.Threading.Tasks;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Media.Animation;
-using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Control de usuario está documentada en https://go.microsoft.com/fwlink/?LinkId=234236
 
 namespace IPO2_EntregaGrupal.PokemonControls
 {
-    public sealed partial class DunsparcePCA : UserControl,iPokemon
+    public sealed partial class DunsparcePCA : UserControl, iPokemon
     {
         DispatcherTimer dtTime;
 
@@ -33,7 +22,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
         }
 
         private void CoreWindow_KeyDown(Windows.UI.Core.CoreWindow sender, Windows.UI.Core.KeyEventArgs args)
-        { 
+        {
             if (args.VirtualKey == Windows.System.VirtualKey.Number1)
             {
                 muerte_start();
@@ -202,7 +191,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             // Iniciar animación de poca vida
             mePocaVida.Play();
             sb_pocaVida.Begin();
-            
+
 
             // Opcional: Cambiar expresión ojos (si tienes elementos para esto)
             p_lineaOjoIzq.Stroke = new SolidColorBrush(Colors.Red);
@@ -354,7 +343,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
         }
 
-        
+
         public double Vida
         {
             get => pb_vida.Value;
@@ -392,7 +381,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
         }
 
         public string Nombre { get; set; } = "Dunsparce";
-        public string Categoría { get; set; } = "Pokémon Tierra-Serpiente";
+        public string Categoria { get; set; } = "Pokémon Tierra-Serpiente";
         public string Tipo { get; set; } = "Normal";
         public double Altura { get; set; } = 1.5;
         public double Peso { get; set; } = 14.0;
