@@ -150,7 +150,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             dtTime.Start();
             imgPotionRed.Visibility = Visibility.Collapsed;
 
-            IniciarAnimacionDescanso(false);
+            //IniciarAnimacionDescanso(false);
         }
 
 
@@ -162,7 +162,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             dtTime.Start();
             imgPotionYellow.Visibility = Visibility.Collapsed;
 
-            IniciarAnimacionDescanso(false);
+            //IniciarAnimacionDescanso(false);
         }
 
 
@@ -186,7 +186,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
                     dtTime = null;
                 }
 
-                DetenerAnimacionDescanso();
+                //DetenerAnimacionDescanso();
             }
 
             estaHerido = false;
@@ -214,7 +214,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
                     dtTime = null;
                 }
 
-                DetenerAnimacionDescanso();
+                //DetenerAnimacionDescanso();
             }
 
 
