@@ -6,27 +6,28 @@ using System.Threading.Tasks;
 
 namespace IPO2_EntregaGrupal
 {
-    public interface iPokemon    {
-        // Existing properties and methods...
+    public interface iPokemon
+    {  
         double Vida { get; set; }
         double Energia { get; set; }
-        string Nombre { get; set; }
-        string Categoria { get; set; }
-        string Tipo { get; set; }
-        double Altura { get; set; }
-        double Peso { get; set; }
-        string Evolucion { get; set; }
-        string Descripcion { get; set; }
-        string Imagen { get; set; }
-        List<string> IconosTipo { get; set; }
-
+        string Nombre { get; set; } //Nombre del Pokemon
+        string Categoria { get; set; } //Gas, Murciélago, Ratón..
+        string Tipo { get; set; } //Eléctrico, Veneno, Volador...
+        double Altura { get; set; } // En metros
+        double Peso { get; set; } // En kilos
+        string Evolucion { get; set; } // Nombre de la evolución o evoluciones
+        string Descripcion { get; set; }// Entre 200 y 500 caracteres
+        
         void verFondo(bool ver);
         void verFilaVida(bool ver);
         void verFilaEnergia(bool ver);
         void verPocionVida(bool ver);
         void verPocionEnergia(bool ver);
         void verNombre(bool ver);
+        void verEscudo(bool ver);
+
         void activarAniIdle(bool activar);
+        void animacionAtaqueFlojo();
         void animacionAtaqueFuerte();
         void animacionDefensa();
         void animacionDescasar();
@@ -36,6 +37,19 @@ namespace IPO2_EntregaGrupal
         void animacionHerido();
         void animacionNoHerido();
         void animacionDerrota();
+    }
+    public interface iPokemonAdapter
+    {
+        string Nombre { get; set; } //Nombre del Pokemon
+        string Categoria { get; set; } //Gas, Murciélago, Ratón..
+        string Tipo { get; set; } //Eléctrico, Veneno, Volador...
+        double Altura { get; set; } // En metros
+        double Peso { get; set; } // En kilos
+        string Evolucion { get; set; } // Nombre de la evolución o evoluciones
+        string Descripcion { get; set; }
+        // Propiedades adicionales para la Pokédex
+        string Imagen { get; set; }
+        List<string> IconosTipo { get; set; }
     }
 
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using Windows.UI;
 using Windows.UI.Xaml;
@@ -21,21 +20,6 @@ namespace IPO2_EntregaGrupal.PokemonControls
             Window.Current.CoreWindow.KeyDown += CoreWindow_KeyDown;
 
         }
-
-        public string Nombre { get; set; } = "Dunsparce";
-        public string Categoria { get; set; } = "Pokémon Tierra-Serpiente";
-        public string Tipo { get; set; } = "Normal";
-        public double Altura { get; set; } = 1.5;
-        public double Peso { get; set; } = 14.0;
-        public string Evolucion { get; set; } = "Ninguna";
-        public string Descripcion { get; set; } = "Dunspare es conocido por su habilidad para volar a pesar de sus pequeñas alas.";
-        public string Imagen { get; set; } = "/Assets/AssetsDunsparcePCA/dunsparce.png"; // Ruta de la imagen del Pokémon
-        public List<string> IconosTipo { get; set; } = new List<string>
-        {
-            "/Assets/Tipo_P/Tipo_Normal.png" // Ruta del icono del tipo Normal
-        };
-
-
 
         private void CoreWindow_KeyDown(Windows.UI.Core.CoreWindow sender, Windows.UI.Core.KeyEventArgs args)
         {
@@ -395,6 +379,14 @@ namespace IPO2_EntregaGrupal.PokemonControls
                 }
             }
         }
+
+        public string Nombre { get; set; } = "Dunsparce";
+        public string Categoria { get; set; } = "Pokémon Tierra-Serpiente";
+        public string Tipo { get; set; } = "Normal";
+        public double Altura { get; set; } = 1.5;
+        public double Peso { get; set; } = 14.0;
+        public string Evolucion { get; set; } = "Ninguna";
+        public string Descripcion { get; set; } = "Dunspare es conocido por su habilidad para volar a pesar de sus pequeñas alas.";
 
         public void verFondo(bool ver)
         {
