@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Windows.Media.Core;
 using Windows.Media.Playback;
 using Windows.UI.Xaml;
@@ -30,19 +31,14 @@ namespace IPO2_EntregaGrupal.PokemonControls
             curacion1.Visibility = Visibility.Collapsed;
             bola_de_fuego.Visibility = Visibility.Collapsed;
             llamas.Visibility = Visibility.Collapsed;
-            verFondo(false);
-            verFilaVida(false);
-            verFilaEnergia(false);
-            verPocionVida(false);
-            verPocionEnergia(false);
-            verNombre(false);
+
 
             this.IsTabStop = true;
             this.KeyDown += ControlTeclas;
 
-            
-                
-            
+
+
+
         }
 
         private void ControlTeclas(object sender, KeyRoutedEventArgs e)
@@ -196,7 +192,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
             // Ocultar o mostrar visualmente la barra de energía y la poción amarilla
             pbEnergy.Visibility = ver ? Visibility.Visible : Visibility.Collapsed;
-            
+
         }
 
         public void verPocionVida(bool ver)
@@ -233,13 +229,14 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
         public void activarAniIdle(bool activar)
         {
-            if (activar==true)
+            if (activar == true)
             {
                 var sb = (Storyboard)this.Resources["mover_alas"];
                 sb.Begin();
             }
 
-            else {
+            else
+            {
                 if (this.Resources.ContainsKey("mover_alas"))
                 {
                     var sbCansado = (Storyboard)this.Resources["mover_alas"];
@@ -366,12 +363,18 @@ namespace IPO2_EntregaGrupal.PokemonControls
             get => this.pbEnergy.Value;
             set => this.pbEnergy.Value = value;
         }
-        public string Nombre { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Categoria { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Tipo { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public double Altura { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public double Peso { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Evolucion { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Descripcion { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Nombre { get => "Victini"; set { } }
+        public string Categoria { get => "Pokémon Victoria"; set { } }
+        public string Tipo { get => "Psíquico/Fuego"; set { } }
+        public double Altura { get => 0.4; set { } }
+        public double Peso { get => 4.0; set { } }
+        public string Evolucion { get => "No evoluciona"; set { } }
+        public string Descripcion { get => "Este Pokémon trae la victoria. Dicen que los Entrenadores que tienen un Victini ganan sea cual sea el tipo de combate. Genera energía ilimitada en su cuerpo y la comparte con quien lo toca."; set { } }
+        public string Imagen { get => "ms-appx:///AssetsVictiniLDM/victini.png"; set { } } // Asegúrate que la ruta a la imagen es correcta
+        public List<string> IconosTipo
+        {
+            get => new List<string> { "ms-appx:///Assets/Tipo_p/Tipo_Psiquico.png", "ms-appx://Assets/Tipo_p/Tipo_Fuego.png" }; // Asegúrate que las rutas a los iconos son correctas
+            set { }
+        }
     }
 }

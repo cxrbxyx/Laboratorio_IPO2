@@ -25,13 +25,13 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <TextBox x:ConnectionId='6' x:Name="txtBuscar" Grid.Column="0" PlaceholderText="Buscar Pokémon..." 
+            <TextBox x:ConnectionId='5' x:Name="txtBuscar" Grid.Column="0" PlaceholderText="Buscar Pokémon..." 
                      FontSize="18" Margin="0,0,10,0"                                    />
 
-            <ComboBox x:ConnectionId='7' x:Name="cbTipos" Grid.Column="1" PlaceholderText="Filtrar por tipo" 
+            <ComboBox x:ConnectionId='6' x:Name="cbTipos" Grid.Column="1" PlaceholderText="Filtrar por tipo" 
                       FontSize="18" Margin="0,0,10,0" MinWidth="150"                                            />
 
-            <Button x:ConnectionId='8' x:Name="btnLimpiar" Grid.Column="2" Content="Limpiar filtros" 
+            <Button x:ConnectionId='7' x:Name="btnLimpiar" Grid.Column="2" Content="Limpiar filtros" 
                     FontSize="18"                         />
         </Grid>
 
@@ -53,28 +53,17 @@
                         </Grid.ColumnDefinitions>
 
                         <!-- Imagen del Pokémon -->
-                        <Image Grid.Column="0" Source="{Binding Imagen}" Width="100" Height="100" 
-                               Margin="10" VerticalAlignment="Center"/>
+                        <Image Grid.Column="0" Width="100" Height="100" Margin="10" VerticalAlignment="Center">
+                            <Image.Source>
+                                <BitmapImage UriSource="{Binding Imagen}" />
+                            </Image.Source>
+                        </Image>
 
                         <!-- Información del Pokémon -->
                         <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="10,0">
                             <TextBlock Text="{Binding Nombre}" FontSize="24" FontWeight="Bold"/>
-                            <TextBlock Text="{Binding Tipo}" FontSize="18" Opacity="0.8"/>
-                            <TextBlock Text="{Binding Categoría}" FontSize="16" Opacity="0.7"/>
 
-                            <!-- Iconos de tipo -->
-                            <ItemsControl ItemsSource="{Binding IconosTipo}" Margin="0,5,0,0">
-                                <ItemsControl.ItemsPanel>
-                                    <ItemsPanelTemplate>
-                                        <StackPanel Orientation="Horizontal" Spacing="5"/>
-                                    </ItemsPanelTemplate>
-                                </ItemsControl.ItemsPanel>
-                                <ItemsControl.ItemTemplate>
-                                    <DataTemplate>
-                                        <Image Source="{Binding}" Width="30" Height="30"/>
-                                    </DataTemplate>
-                                </ItemsControl.ItemTemplate>
-                            </ItemsControl>
+                            
                         </StackPanel>
 
                         <!-- Botón de información -->

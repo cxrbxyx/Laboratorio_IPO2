@@ -10,7 +10,7 @@ namespace IPO2_EntregaGrupal
 {
     public sealed partial class InfoPokemon : Page
     {
-        private iPokemonAdapter pokemon;
+        private iPokemon pokemon; // Mantenemos iPokemonAdapter si los UserControls lo implementan
 
         // Mapa para relacionar nombre de Pokémon con su UserControl correspondiente
         private Dictionary<string, Type> mapaUserControls = new Dictionary<string, Type>(StringComparer.OrdinalIgnoreCase)
@@ -29,7 +29,7 @@ namespace IPO2_EntregaGrupal
         {
             base.OnNavigatedTo(e);
 
-            if (e.Parameter is iPokemonAdapter pokemonParam)
+            if (e.Parameter is iPokemon pokemonParam) // Asumimos que el parámetro sigue siendo iPokemonAdapter
             {
                 pokemon = pokemonParam;
                 MostrarDatosPokemon();
@@ -47,8 +47,29 @@ namespace IPO2_EntregaGrupal
             txtEvolucion.Text = pokemon.Evolucion;
             txtDescripcion.Text = pokemon.Descripcion;
 
+<<<<<<< HEAD
+            // Mostramos el UserControl del Pokémon
+            // Asegúrate de que el objeto 'pokemon' que se pasa a esta página 
+            // sea la instancia real del UserControl y que implemente iPokemonAdapter.
+            if (pokemon is UserControl pokemonControl)
+            {
+                pokemonUserControlContainer.Content = pokemonControl;
+            }
+            else if (!string.IsNullOrEmpty(pokemon.Imagen)) // Fallback si no es un UserControl (opcional)
+            {
+                // Si prefieres no tener un fallback a la imagen, puedes eliminar este bloque else-if.
+                // Esto es en caso de que algunos Pokémon sigan usando imágenes y no UserControls.
+                var image = new Image
+                {
+                    Source = new BitmapImage(new Uri(pokemon.Imagen)),
+                    Stretch = Windows.UI.Xaml.Media.Stretch.Uniform
+                };
+                pokemonUserControlContainer.Content = image;
+            }
+=======
             // Intentamos mostrar el UserControl específico del Pokémon
             MostrarUserControlPokemon();
+>>>>>>> 0a43bf69b7b224bd4f1fb92276b13ad70a37531a
 
             // Mostramos los iconos de tipo
             if (pokemon.IconosTipo != null && pokemon.IconosTipo.Count > 0)

@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>2bb605fc-91bb-431e-a006-fa9e6b9d0ce2</PackageIdentityName>
     <PackageIdentityPublisher>CN=pca_p</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>51686D4DE83FFB4BB8A38712EDA2531176E992E5E92C7396101961E65065ABE4</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C3C244227C8A09CA5C7399793696060D60FE6020621E01EA08BCC117DFBAE099</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2bb605fc-91bb-431e-a006-fa9e6b9d0ce2_1.0.0.0_x64__m7wm4fv092jjy</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2bb605fc-91bb-431e-a006-fa9e6b9d0ce2_m7wm4fv092jjy!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2bb605fc-91bb-431e-a006-fa9e6b9d0ce2</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-26T21:44:03.359</Modified>
+      <Modified>2025-05-28T22:56:14.139</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\IPO2_EntregaGrupal.exe">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\IPO2_EntregaGrupal.exe">
       <PackagePath>entrypoint\IPO2_EntregaGrupal.exe</PackagePath>
-      <Modified>2025-05-26T21:44:02.758</Modified>
+      <Modified>2025-05-28T22:56:13.361</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,677 +44,677 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T03:52:00.000</Modified>
+      <Modified>2025-03-12T01:26:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\arabn.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\arabn.png">
       <PackagePath>Assets\AssetsBulbasurALC\arabn.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\bosque.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\bosque.png">
       <PackagePath>Assets\AssetsBulbasurALC\bosque.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\corazon.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\corazon.png">
       <PackagePath>Assets\AssetsBulbasurALC\corazon.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\energia.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\energia.png">
       <PackagePath>Assets\AssetsBulbasurALC\energia.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\lagrima.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\lagrima.png">
       <PackagePath>Assets\AssetsBulbasurALC\lagrima.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\AssetsBulbasurALC\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\red-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\red-potion.png">
       <PackagePath>Assets\AssetsBulbasurALC\red-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\SplashScreen.scale-200.png">
       <PackagePath>Assets\AssetsBulbasurALC\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\AssetsBulbasurALC\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\AssetsBulbasurALC\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\AssetsBulbasurALC\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\StoreLogo.png">
       <PackagePath>Assets\AssetsBulbasurALC\StoreLogo.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\AssetsBulbasurALC\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\yellow-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\yellow-potion.png">
       <PackagePath>Assets\AssetsBulbasurALC\yellow-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\burbujasVeneno.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\burbujasVeneno.png">
       <PackagePath>Assets\AssetsDunsparcePCA\burbujasVeneno.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\corazon.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\corazon.png">
       <PackagePath>Assets\AssetsDunsparcePCA\corazon.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\curacion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\curacion.png">
       <PackagePath>Assets\AssetsDunsparcePCA\curacion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\energia.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\energia.png">
       <PackagePath>Assets\AssetsDunsparcePCA\energia.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\escudo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\escudo.png">
       <PackagePath>Assets\AssetsDunsparcePCA\escudo.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\fondo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\fondo.png">
       <PackagePath>Assets\AssetsDunsparcePCA\fondo.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\imFlecha.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\imFlecha.png">
       <PackagePath>Assets\AssetsDunsparcePCA\imFlecha.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\piedra.PNG">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\piedra.PNG">
       <PackagePath>Assets\AssetsDunsparcePCA\piedra.PNG</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\red-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\red-potion.png">
       <PackagePath>Assets\AssetsDunsparcePCA\red-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\yellow-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\yellow-potion.png">
       <PackagePath>Assets\AssetsDunsparcePCA\yellow-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Ataque_débil.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Ataque_débil.png">
       <PackagePath>Assets\AssetsSwabluSCP\Ataque_débil.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\corazon.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\corazon.png">
       <PackagePath>Assets\AssetsSwabluSCP\corazon.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\energia.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\energia.png">
       <PackagePath>Assets\AssetsSwabluSCP\energia.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Escudo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Escudo.png">
       <PackagePath>Assets\AssetsSwabluSCP\Escudo.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Herido.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Herido.png">
       <PackagePath>Assets\AssetsSwabluSCP\Herido.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Nube.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Nube.png">
       <PackagePath>Assets\AssetsSwabluSCP\Nube.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Rayo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Rayo.png">
       <PackagePath>Assets\AssetsSwabluSCP\Rayo.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Recuperación.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Recuperación.png">
       <PackagePath>Assets\AssetsSwabluSCP\Recuperación.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\red-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\red-potion.png">
       <PackagePath>Assets\AssetsSwabluSCP\red-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Tornado.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Tornado.png">
       <PackagePath>Assets\AssetsSwabluSCP\Tornado.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\yellow-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\yellow-potion.png">
       <PackagePath>Assets\AssetsSwabluSCP\yellow-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\corazon.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\corazon.png">
       <PackagePath>Assets\AssetstGengarJMC\corazon.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\energia.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\energia.png">
       <PackagePath>Assets\AssetstGengarJMC\energia.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\mano_sombra.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\mano_sombra.png">
       <PackagePath>Assets\AssetstGengarJMC\mano_sombra.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Nubes.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Nubes.png">
       <PackagePath>Assets\AssetstGengarJMC\Nubes.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\red-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\red-potion.png">
       <PackagePath>Assets\AssetstGengarJMC\red-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\tirita.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\tirita.png">
       <PackagePath>Assets\AssetstGengarJMC\tirita.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\yellow-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\yellow-potion.png">
       <PackagePath>Assets\AssetstGengarJMC\yellow-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\bola de fuego.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\bola de fuego.png">
       <PackagePath>Assets\AssetsVictiniLDM\bola de fuego.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\corazon.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\corazon.png">
       <PackagePath>Assets\AssetsVictiniLDM\corazon.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\curacion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\curacion.png">
       <PackagePath>Assets\AssetsVictiniLDM\curacion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\energia.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\energia.png">
       <PackagePath>Assets\AssetsVictiniLDM\energia.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\escudo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\escudo.png">
       <PackagePath>Assets\AssetsVictiniLDM\escudo.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\espiral.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\espiral.png">
       <PackagePath>Assets\AssetsVictiniLDM\espiral.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fondo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fondo.png">
       <PackagePath>Assets\AssetsVictiniLDM\fondo.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fuego-Photoroom.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fuego-Photoroom.png">
       <PackagePath>Assets\AssetsVictiniLDM\fuego-Photoroom.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\llama.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\llama.png">
       <PackagePath>Assets\AssetsVictiniLDM\llama.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\AssetsVictiniLDM\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\ojo_cerrado.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\ojo_cerrado.png">
       <PackagePath>Assets\AssetsVictiniLDM\ojo_cerrado.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\rasguno.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\rasguno.png">
       <PackagePath>Assets\AssetsVictiniLDM\rasguno.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\red-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\red-potion.png">
       <PackagePath>Assets\AssetsVictiniLDM\red-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\SplashScreen.scale-200.png">
       <PackagePath>Assets\AssetsVictiniLDM\SplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\AssetsVictiniLDM\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\AssetsVictiniLDM\Square44x44Logo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\AssetsVictiniLDM\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\StoreLogo.png">
       <PackagePath>Assets\AssetsVictiniLDM\StoreLogo.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\AssetsVictiniLDM\Wide310x150Logo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\yellow-potion.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\yellow-potion.png">
       <PackagePath>Assets\AssetsVictiniLDM\yellow-potion.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\azumarill.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\azumarill.png">
       <PackagePath>Assets\Pokedex\azumarill.png</PackagePath>
-      <Modified>2025-05-25T17:48:17.863</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\bulbasaur.png">
-      <PackagePath>Assets\Pokedex\bulbasaur.png</PackagePath>
-      <Modified>2025-05-25T17:50:16.371</Modified>
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\bulbasaur.png">
+      <PackagePath>Assets\AssetsBulbasurALC\bulbasaur.png</PackagePath>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\corphish.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\corphish.png">
       <PackagePath>Assets\Pokedex\corphish.png</PackagePath>
-      <Modified>2025-05-25T17:48:48.175</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\dunsparce.png">
-      <PackagePath>Assets\Pokedex\dunsparce.png</PackagePath>
-      <Modified>2025-05-25T17:49:14.027</Modified>
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\dunsparce.png">
+      <PackagePath>Assets\AssetsDunsparcePCA\dunsparce.png</PackagePath>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\gardevoir.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\gardevoir.png">
       <PackagePath>Assets\Pokedex\gardevoir.png</PackagePath>
-      <Modified>2025-05-25T17:49:45.902</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\gengar.png">
-      <PackagePath>Assets\Pokedex\gengar.png</PackagePath>
-      <Modified>2025-05-25T18:28:20.088</Modified>
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\gengar.png">
+      <PackagePath>Assets\AssetstGengarJMC\gengar.png</PackagePath>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\geodude.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\geodude.png">
       <PackagePath>Assets\Pokedex\geodude.png</PackagePath>
-      <Modified>2025-05-25T18:28:43.022</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\golbat.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\golbat.png">
       <PackagePath>Assets\Pokedex\golbat.png</PackagePath>
-      <Modified>2025-05-25T18:29:02.388</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\horsea.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\horsea.png">
       <PackagePath>Assets\Pokedex\horsea.png</PackagePath>
-      <Modified>2025-05-25T18:29:26.633</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\mimikyu.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\mimikyu.png">
       <PackagePath>Assets\Pokedex\mimikyu.png</PackagePath>
-      <Modified>2025-05-25T18:33:03.863</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\oshawott.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\oshawott.png">
       <PackagePath>Assets\Pokedex\oshawott.png</PackagePath>
-      <Modified>2025-05-25T18:33:26.304</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pachirisu.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pachirisu.png">
       <PackagePath>Assets\Pokedex\pachirisu.png</PackagePath>
-      <Modified>2025-05-25T18:33:58.301</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pichu.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pichu.png">
       <PackagePath>Assets\Pokedex\pichu.png</PackagePath>
-      <Modified>2025-05-25T18:34:31.790</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pignite.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\pignite.png">
       <PackagePath>Assets\Pokedex\pignite.png</PackagePath>
-      <Modified>2025-05-25T18:35:02.717</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\porygon.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\porygon.png">
       <PackagePath>Assets\Pokedex\porygon.png</PackagePath>
-      <Modified>2025-05-25T18:35:25.514</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\psyduck.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\psyduck.png">
       <PackagePath>Assets\Pokedex\psyduck.png</PackagePath>
-      <Modified>2025-05-25T18:35:48.905</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\regice.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\regice.png">
       <PackagePath>Assets\Pokedex\regice.png</PackagePath>
-      <Modified>2025-05-25T18:36:07.141</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\riolu.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\riolu.png">
       <PackagePath>Assets\Pokedex\riolu.png</PackagePath>
-      <Modified>2025-05-25T18:36:27.833</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\rowlet.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\rowlet.png">
       <PackagePath>Assets\Pokedex\rowlet.png</PackagePath>
-      <Modified>2025-05-25T18:37:21.886</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\sprigatito.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\sprigatito.png">
       <PackagePath>Assets\Pokedex\sprigatito.png</PackagePath>
-      <Modified>2025-05-25T18:38:59.616</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\swablu.png">
-      <PackagePath>Assets\Pokedex\swablu.png</PackagePath>
-      <Modified>2025-05-25T18:39:39.159</Modified>
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\swablu.png">
+      <PackagePath>Assets\AssetsSwabluSCP\swablu.png</PackagePath>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\victini.png">
-      <PackagePath>Assets\Pokedex\victini.png</PackagePath>
-      <Modified>2025-05-25T18:40:08.423</Modified>
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\victini.png">
+      <PackagePath>Assets\AssetsVictiniLDM\victini.png</PackagePath>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\wartortle.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\wartortle.png">
       <PackagePath>Assets\Pokedex\wartortle.png</PackagePath>
-      <Modified>2025-05-25T18:40:29.908</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\zygarde.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Pokedex\zygarde.png">
       <PackagePath>Assets\Pokedex\zygarde.png</PackagePath>
-      <Modified>2025-05-25T18:40:53.037</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Acero.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Acero.png">
       <PackagePath>Assets\Tipo_P\Tipo_Acero.png</PackagePath>
-      <Modified>2025-05-25T17:58:48.601</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Agua.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Agua.png">
       <PackagePath>Assets\Tipo_P\Tipo_Agua.png</PackagePath>
-      <Modified>2025-05-25T17:59:04.110</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_aire.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_aire.png">
       <PackagePath>Assets\Tipo_P\Tipo_aire.png</PackagePath>
-      <Modified>2025-05-25T17:57:17.362</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Bicho.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Bicho.png">
       <PackagePath>Assets\Tipo_P\Tipo_Bicho.png</PackagePath>
-      <Modified>2025-05-25T17:58:10.617</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Dragón.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Dragón.png">
       <PackagePath>Assets\Tipo_P\Tipo_Dragón.png</PackagePath>
-      <Modified>2025-05-25T17:59:57.989</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Electrico.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Electrico.png">
       <PackagePath>Assets\Tipo_P\Tipo_Electrico.png</PackagePath>
-      <Modified>2025-05-25T17:59:24.035</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Estelar.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Estelar.png">
       <PackagePath>Assets\Tipo_P\Tipo_Estelar.png</PackagePath>
-      <Modified>2025-05-25T18:00:45.594</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Fantasma.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Fantasma.png">
       <PackagePath>Assets\Tipo_P\Tipo_Fantasma.png</PackagePath>
-      <Modified>2025-05-25T17:58:27.239</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Fuego.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Fuego.png">
       <PackagePath>Assets\Tipo_P\Tipo_Fuego.png</PackagePath>
-      <Modified>2025-05-25T17:58:56.771</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hada.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hada.png">
       <PackagePath>Assets\Tipo_P\Tipo_Hada.png</PackagePath>
-      <Modified>2025-05-25T18:00:35.336</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hielo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hielo.png">
       <PackagePath>Assets\Tipo_P\Tipo_Hielo.png</PackagePath>
-      <Modified>2025-05-25T17:59:47.595</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hierva.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Hierva.png">
       <PackagePath>Assets\Tipo_P\Tipo_Hierva.png</PackagePath>
-      <Modified>2025-05-25T17:59:15.755</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Lucha.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Lucha.png">
       <PackagePath>Assets\Tipo_P\Tipo_Lucha.png</PackagePath>
-      <Modified>2025-05-25T17:57:05.524</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_normal.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_normal.png">
       <PackagePath>Assets\Tipo_P\Tipo_normal.png</PackagePath>
-      <Modified>2025-05-25T17:56:44.067</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Oscuridad.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Oscuridad.png">
       <PackagePath>Assets\Tipo_P\Tipo_Oscuridad.png</PackagePath>
-      <Modified>2025-05-25T18:00:08.203</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Phsiquico.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Phsiquico.png">
       <PackagePath>Assets\Tipo_P\Tipo_Phsiquico.png</PackagePath>
-      <Modified>2025-05-25T17:59:39.622</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Roca.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Roca.png">
       <PackagePath>Assets\Tipo_P\Tipo_Roca.png</PackagePath>
-      <Modified>2025-05-25T17:57:58.517</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Tierra.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_Tierra.png">
       <PackagePath>Assets\Tipo_P\Tipo_Tierra.png</PackagePath>
-      <Modified>2025-05-25T17:57:49.206</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_veneno.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Tipo_P\Tipo_veneno.png">
       <PackagePath>Assets\Tipo_P\Tipo_veneno.png</PackagePath>
-      <Modified>2025-05-25T17:57:32.542</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Bostezo.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Bostezo.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\Bostezo.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\bulbasaur.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\bulbasaur.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\bulbasaur.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Cansado.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Cansado.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\Cansado.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Curación.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Curación.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\Curación.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Derrota.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Derrota.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\Derrota.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Escudo.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Escudo.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\Escudo.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Golpe.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Golpe.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\Golpe.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Herido.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\Herido.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\Herido.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\latigo.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsBulbasurALC\latigo.mp3">
       <PackagePath>Assets\AssetsBulbasurALC\latigo.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\curacion_soundEffect.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\curacion_soundEffect.mp3">
       <PackagePath>Assets\AssetsDunsparcePCA\curacion_soundEffect.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\escudo_soundEffect.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\escudo_soundEffect.mp3">
       <PackagePath>Assets\AssetsDunsparcePCA\escudo_soundEffect.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\piedras_soundEffect.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\piedras_soundEffect.mp3">
       <PackagePath>Assets\AssetsDunsparcePCA\piedras_soundEffect.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\pocaVida_soundEffect.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\pocaVida_soundEffect.mp3">
       <PackagePath>Assets\AssetsDunsparcePCA\pocaVida_soundEffect.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\veneno_soundEffect.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsDunsparcePCA\veneno_soundEffect.mp3">
       <PackagePath>Assets\AssetsDunsparcePCA\veneno_soundEffect.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Ataque_fuerte %28mp3cut.net%29.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Ataque_fuerte %28mp3cut.net%29.mp3">
       <PackagePath>Assets\AssetsSwabluSCP\Ataque_fuerte %28mp3cut.net%29.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Derrotado.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Derrotado.mp3">
       <PackagePath>Assets\AssetsSwabluSCP\Derrotado.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Débil.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Débil.mp3">
       <PackagePath>Assets\AssetsSwabluSCP\Débil.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Escudo.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Escudo.mp3">
       <PackagePath>Assets\AssetsSwabluSCP\Escudo.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Recuperación.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Recuperación.mp3">
       <PackagePath>Assets\AssetsSwabluSCP\Recuperación.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Viento.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Viento.mp3">
       <PackagePath>Assets\AssetsSwabluSCP\Viento.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\AtaqueDebil.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\AtaqueDebil.mp3">
       <PackagePath>Assets\AssetstGengarJMC\Sounds\AtaqueDebil.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\AtaqueFuerte.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\AtaqueFuerte.mp3">
       <PackagePath>Assets\AssetstGengarJMC\Sounds\AtaqueFuerte.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Cansado.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Cansado.mp3">
       <PackagePath>Assets\AssetstGengarJMC\Sounds\Cansado.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Curacion.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Curacion.mp3">
       <PackagePath>Assets\AssetstGengarJMC\Sounds\Curacion.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Derrotado.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Derrotado.mp3">
       <PackagePath>Assets\AssetstGengarJMC\Sounds\Derrotado.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Escudo.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Escudo.mp3">
       <PackagePath>Assets\AssetstGengarJMC\Sounds\Escudo.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Herido.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Sounds\Herido.mp3">
       <PackagePath>Assets\AssetstGengarJMC\Sounds\Herido.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\explosion_1.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\explosion_1.mp3">
       <PackagePath>Assets\AssetsVictiniLDM\explosion_1.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fire-whoosh.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fire-whoosh.mp3">
       <PackagePath>Assets\AssetsVictiniLDM\fire-whoosh.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fireworks.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fireworks.mp3">
       <PackagePath>Assets\AssetsVictiniLDM\fireworks.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fuegos.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\fuegos.mp3">
       <PackagePath>Assets\AssetsVictiniLDM\fuegos.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\pokemon-opening.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\pokemon-opening.mp3">
       <PackagePath>Assets\AssetsVictiniLDM\pokemon-opening.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\recovery.mp3">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsVictiniLDM\recovery.mp3">
       <PackagePath>Assets\AssetsVictiniLDM\recovery.mp3</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Fondo_cielo.jpg">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetsSwabluSCP\Fondo_cielo.jpg">
       <PackagePath>Assets\AssetsSwabluSCP\Fondo_cielo.jpg</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Fondo.jpg">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Fondo.jpg">
       <PackagePath>Assets\AssetstGengarJMC\Fondo.jpg</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Fondo2.jpg">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\AssetstGengarJMC\Fondo2.jpg">
       <PackagePath>Assets\AssetstGengarJMC\Fondo2.jpg</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\INICIO.jpg">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Assets\INICIO.jpg">
       <PackagePath>Assets\INICIO.jpg</PackagePath>
-      <Modified>2025-05-25T20:35:19.921</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2025-05-25T13:50:10.000</Modified>
+      <Modified>2025-05-26T21:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\IPO2_EntregaGrupal.xr.xml">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\IPO2_EntregaGrupal.xr.xml">
       <PackagePath>IPO2_EntregaGrupal.xr.xml</PackagePath>
-      <Modified>2025-05-26T21:20:21.626</Modified>
+      <Modified>2025-05-28T22:50:55.871</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.589</Modified>
+      <Modified>2025-05-28T22:56:13.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\AcercaDePage.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\AcercaDePage.xbf">
       <PackagePath>AcercaDePage.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.589</Modified>
+      <Modified>2025-05-28T22:56:13.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\InfoPokemon.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\InfoPokemon.xbf">
       <PackagePath>InfoPokemon.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.589</Modified>
+      <Modified>2025-05-28T22:56:13.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\BulbasaurRH.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\BulbasaurRH.xbf">
       <PackagePath>PokemonControls\BulbasaurRH.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.509</Modified>
+      <Modified>2025-05-28T22:56:13.121</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\CombatePage.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\CombatePage.xbf">
       <PackagePath>CombatePage.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.591</Modified>
+      <Modified>2025-05-28T22:56:13.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\DunsparcePCA.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\DunsparcePCA.xbf">
       <PackagePath>PokemonControls\DunsparcePCA.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.520</Modified>
+      <Modified>2025-05-28T22:56:13.132</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.591</Modified>
+      <Modified>2025-05-28T22:56:13.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\MisPokemonPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\MisPokemonPage.xbf">
       <PackagePath>MisPokemonPage.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.591</Modified>
+      <Modified>2025-05-28T22:56:13.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokedexPage.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokedexPage.xbf">
       <PackagePath>PokedexPage.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.591</Modified>
+      <Modified>2025-05-28T22:56:13.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\GengarJMC.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\GengarJMC.xbf">
       <PackagePath>PokemonControls\GengarJMC.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.546</Modified>
+      <Modified>2025-05-28T22:56:13.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\SwabluSCP.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\SwabluSCP.xbf">
       <PackagePath>PokemonControls\SwabluSCP.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.563</Modified>
+      <Modified>2025-05-28T22:56:13.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\VictiniLDM.xbf">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\PokemonControls\VictiniLDM.xbf">
       <PackagePath>PokemonControls\VictiniLDM.xbf</PackagePath>
-      <Modified>2025-05-26T21:44:02.589</Modified>
+      <Modified>2025-05-28T22:56:13.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T01:52:06.000</Modified>
+      <Modified>2025-03-12T01:26:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-05-26T20:52:02.536</Modified>
+      <Modified>2025-05-28T22:56:13.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pca_p\Documents\GitHub\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\Core\IPO2_EntregaGrupal.exe">
+    <AppxPackagedFile Include="C:\Users\pca_p\source\repos\cxrbxyx\Laboratorio_IPO2\IPO2_EntregaGrupal\bin\x64\Debug\Core\IPO2_EntregaGrupal.exe">
       <PackagePath>IPO2_EntregaGrupal.exe</PackagePath>
-      <Modified>2025-05-26T21:44:03.355</Modified>
+      <Modified>2025-05-28T22:56:14.134</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

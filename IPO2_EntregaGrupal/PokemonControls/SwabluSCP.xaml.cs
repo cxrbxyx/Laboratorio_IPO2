@@ -92,6 +92,18 @@ namespace IPO2_EntregaGrupal.PokemonControls
             set { }
         }
 
+        public string Imagen
+        {
+            get => "ms-appx:///AssetsSwabluSCP/swablu.png";
+            set { }
+        }
+
+        public List<string> IconosTipo
+        {
+            get => new List<string> { "ms-appx:///Assets/Tipo_p/Tipo_Normal.png", "ms-appx:///Assets/Tipo_p/Tipo_Volador.png" };
+            set { }
+        }
+
         public void activarAniIdle(bool activar)
         {
 
@@ -156,7 +168,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             }
         }
 
-            public void animacionHerido()
+        public void animacionHerido()
         {
             Corte.Visibility = Visibility.Visible;
             Corte1.Visibility = Visibility.Visible;

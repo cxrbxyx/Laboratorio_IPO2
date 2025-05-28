@@ -1,8 +1,36 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\",
+  "WorkspaceRootPath": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\source\\repos\\cxrbxyx\\laboratorio_ipo2\\ipo2_entregagrupal\\pokemoncontrols\\dunsparcepca.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\pokemoncontrols\\dunsparcepca.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\source\\repos\\cxrbxyx\\laboratorio_ipo2\\ipo2_entregagrupal\\pokedexpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\pokedexpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\source\\repos\\cxrbxyx\\laboratorio_ipo2\\ipo2_entregagrupal\\pokedexpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\pokedexpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\source\\repos\\cxrbxyx\\laboratorio_ipo2\\ipo2_entregagrupal\\pokemoncontrols\\bulbasaurrh.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\pokemoncontrols\\bulbasaurrh.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\source\\repos\\cxrbxyx\\laboratorio_ipo2\\ipo2_entregagrupal\\infopokemon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\infopokemon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\source\\repos\\cxrbxyx\\laboratorio_ipo2\\ipo2_entregagrupal\\infopokemon.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\infopokemon.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\source\\repos\\cxrbxyx\\laboratorio_ipo2\\ipo2_entregagrupal\\ipokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\ipokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\documents\\github\\laboratorio_ipo2\\ipo2_entregagrupal\\mispokemonpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\mispokemonpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -17,6 +45,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|c:\\users\\pca_p\\documents\\github\\laboratorio_ipo2\\ipo2_entregagrupal\\acercadepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{30FD5539-D381-4B47-BDF6-70E1DBD79727}|IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj|solutionrelative:ipo2_entregagrupal\\acercadepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> 0a43bf69b7b224bd4f1fb92276b13ad70a37531a
     }
   ],
   "DocumentGroupContainers": [
@@ -41,6 +70,10 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+<<<<<<< HEAD
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+=======
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "InfoPokemon.xaml.cs",
@@ -52,10 +85,47 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T20:27:26.897Z",
               "EditorCaption": ""
+>>>>>>> 0a43bf69b7b224bd4f1fb92276b13ad70a37531a
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
+              "Title": "DunsparcePCA.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\PokemonControls\\DunsparcePCA.xaml.cs",
+              "RelativeDocumentMoniker": "IPO2_EntregaGrupal\\PokemonControls\\DunsparcePCA.xaml.cs",
+              "ToolTip": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\PokemonControls\\DunsparcePCA.xaml.cs",
+              "RelativeToolTip": "IPO2_EntregaGrupal\\PokemonControls\\DunsparcePCA.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:40:20.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BulbasaurRH.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\PokemonControls\\BulbasaurRH.xaml.cs",
+              "RelativeDocumentMoniker": "IPO2_EntregaGrupal\\PokemonControls\\BulbasaurRH.xaml.cs",
+              "ToolTip": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\PokemonControls\\BulbasaurRH.xaml.cs",
+              "RelativeToolTip": "IPO2_EntregaGrupal\\PokemonControls\\BulbasaurRH.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T22:37:12.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PokedexPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\PokedexPage.xaml.cs",
+              "RelativeDocumentMoniker": "IPO2_EntregaGrupal\\PokedexPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\PokedexPage.xaml.cs",
+              "RelativeToolTip": "IPO2_EntregaGrupal\\PokedexPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:55:00.828Z",
+=======
               "Title": "MisPokemonPage.xaml",
               "DocumentMoniker": "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\MisPokemonPage.xaml",
               "RelativeDocumentMoniker": "IPO2_EntregaGrupal\\MisPokemonPage.xaml",
@@ -63,10 +133,47 @@
               "RelativeToolTip": "IPO2_EntregaGrupal\\MisPokemonPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-28T20:22:09.57Z",
+>>>>>>> 0a43bf69b7b224bd4f1fb92276b13ad70a37531a
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 6,
+              "Title": "iPokemon.cs",
+              "DocumentMoniker": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\iPokemon.cs",
+              "RelativeDocumentMoniker": "IPO2_EntregaGrupal\\iPokemon.cs",
+              "ToolTip": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\iPokemon.cs",
+              "RelativeToolTip": "IPO2_EntregaGrupal\\iPokemon.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:53:42.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InfoPokemon.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\InfoPokemon.xaml.cs",
+              "RelativeDocumentMoniker": "IPO2_EntregaGrupal\\InfoPokemon.xaml.cs",
+              "ToolTip": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\InfoPokemon.xaml.cs",
+              "RelativeToolTip": "IPO2_EntregaGrupal\\InfoPokemon.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:53:23.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InfoPokemon.xaml",
+              "DocumentMoniker": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\InfoPokemon.xaml",
+              "RelativeDocumentMoniker": "IPO2_EntregaGrupal\\InfoPokemon.xaml",
+              "ToolTip": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\InfoPokemon.xaml",
+              "RelativeToolTip": "IPO2_EntregaGrupal\\InfoPokemon.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T21:33:17.34Z",
+=======
               "DocumentIndex": 2,
               "Title": "InfoPokemon.xaml",
               "DocumentMoniker": "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\InfoPokemon.xaml",
@@ -75,10 +182,21 @@
               "RelativeToolTip": "IPO2_EntregaGrupal\\InfoPokemon.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-28T20:21:10.51Z",
+>>>>>>> 0a43bf69b7b224bd4f1fb92276b13ad70a37531a
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 1,
+              "Title": "PokedexPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\PokedexPage.xaml",
+              "RelativeDocumentMoniker": "IPO2_EntregaGrupal\\PokedexPage.xaml",
+              "ToolTip": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\PokedexPage.xaml",
+              "RelativeToolTip": "IPO2_EntregaGrupal\\PokedexPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-28T21:33:13.818Z",
+=======
               "DocumentIndex": 3,
               "Title": "AcercaDePage.xaml",
               "DocumentMoniker": "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\AcercaDePage.xaml",
@@ -87,6 +205,7 @@
               "RelativeToolTip": "IPO2_EntregaGrupal\\AcercaDePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-28T20:20:59.581Z",
+>>>>>>> 0a43bf69b7b224bd4f1fb92276b13ad70a37531a
               "EditorCaption": ""
             }
           ]

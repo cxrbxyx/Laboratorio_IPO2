@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj": {}
+    "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj": {
+    "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj",
+        "projectUniqueName": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj",
         "projectName": "IPO2_EntregaGrupal",
-        "projectPath": "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj",
+        "projectPath": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\IPO2_EntregaGrupal.csproj",
         "packagesPath": "C:\\Users\\pca_p\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pca_p\\Documents\\GitHub\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\obj\\",
+        "outputPath": "C:\\Users\\pca_p\\source\\repos\\cxrbxyx\\Laboratorio_IPO2\\IPO2_EntregaGrupal\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,

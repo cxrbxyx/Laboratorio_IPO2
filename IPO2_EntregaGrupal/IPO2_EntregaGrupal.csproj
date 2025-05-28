@@ -261,11 +261,11 @@
     <Content Include="Assets\AssetsVictiniLDM\yellow-potion.png" />
     <Content Include="Assets\INICIO.jpg" />
     <Content Include="Assets\Pokedex\azumarill.png" />
-    <Content Include="Assets\Pokedex\bulbasaur.png" />
+    <Content Include="Assets\AssetsBulbasurALC\bulbasaur.png" />
     <Content Include="Assets\Pokedex\corphish.png" />
-    <Content Include="Assets\Pokedex\dunsparce.png" />
+    <Content Include="Assets\AssetsDunsparcePCA\dunsparce.png" />
     <Content Include="Assets\Pokedex\gardevoir.png" />
-    <Content Include="Assets\Pokedex\gengar.png" />
+    <Content Include="Assets\AssetstGengarJMC\gengar.png" />
     <Content Include="Assets\Pokedex\geodude.png" />
     <Content Include="Assets\Pokedex\golbat.png" />
     <Content Include="Assets\Pokedex\horsea.png" />
@@ -280,8 +280,8 @@
     <Content Include="Assets\Pokedex\riolu.png" />
     <Content Include="Assets\Pokedex\rowlet.png" />
     <Content Include="Assets\Pokedex\sprigatito.png" />
-    <Content Include="Assets\Pokedex\swablu.png" />
-    <Content Include="Assets\Pokedex\victini.png" />
+    <Content Include="Assets\AssetsSwabluSCP\swablu.png" />
+    <Content Include="Assets\AssetsVictiniLDM\victini.png" />
     <Content Include="Assets\Pokedex\wartortle.png" />
     <Content Include="Assets\Pokedex\zygarde.png" />
     <Content Include="Assets\Tipo_P\Tipo_Acero.png" />

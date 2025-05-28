@@ -32,8 +32,8 @@ namespace IPO2_EntregaGrupal.PokemonControls
         MediaPlayer mpSonidos;
 
 
-        public double Vida 
-        { 
+        public double Vida
+        {
             get { return this.pbVida.Value; }
             set { this.pbVida.Value = value; }
         }
@@ -45,7 +45,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
             {
                 this.verEnergia = value;
                 if (!verEnergia) this.gridGeneral.RowDefinitions[1].Height = new GridLength(0);
-                else this.gridGeneral.RowDefinitions[1].Height = new GridLength(50,GridUnitType.Pixel);
+                else this.gridGeneral.RowDefinitions[1].Height = new GridLength(50, GridUnitType.Pixel);
             }
         }
 
@@ -99,35 +99,35 @@ namespace IPO2_EntregaGrupal.PokemonControls
         }
 
         public double Energia { get { return this.pbEnergia.Value; } set { this.pbEnergia.Value = value; } }
-        public string Nombre { get { return this.tbNombrePokemon.Text; } set { this.tbNombrePokemon.Text = value; } }
+        public string Nombre { get { return this.tbNombrePokemon.Text; } set { this.tbNombrePokemon.Text = value; } } // Asumiendo que tbNombrePokemon.Text se inicializa a "Gengar" (posiblemente en XAML)
         public string Categoria
         {
             get { return "Sombra"; }
-            set { /* ... */ }
+            set { /* Los datos son fijos para este control específico */ }
         }
 
         public string Tipo
         {
             get { return "Fantasma/Veneno"; }
-            set { /* ... */ }
+            set { /* Los datos son fijos para este control específico */ }
         }
 
         public double Altura
         {
             get { return 1.5; } // Altura en metros
-            set { /* ... */ }
+            set { /* Los datos son fijos para este control específico */ }
         }
 
         public double Peso
         {
             get { return 40.5; } // Peso en kilogramos
-            set { /* ... */ }
+            set { /* Los datos son fijos para este control específico */ }
         }
 
         public string Evolucion
         {
             get { return "Gastly → Haunter → Gengar"; }
-            set { /* ... */ }
+            set { /* Los datos son fijos para este control específico */ }
         }
 
         public string Descripcion
@@ -136,13 +136,34 @@ namespace IPO2_EntregaGrupal.PokemonControls
             {
                 return "Gengar, el Pokémon Sombra. Se dice que se esconde en las sombras de las personas y roba su calor. Le gusta burlarse de la gente con su risa espeluznante.";
             }
-            set { /* ... */ }
+            set { /* Los datos son fijos para este control específico */ }
+        }
+
+        public string Imagen
+        {
+            get { return "Assets/AssetsGengarJMC/gengar.png"; } // Ruta de la imagen del Pokémon
+            set { /* Los datos son fijos para este control específico */ }
+        }
+
+        public List<string> IconosTipo
+        {
+            get
+            {
+                return new List<string>
+                {
+                    "Assets/Assets/Tipo_P/Tipo_Fantasma.png", // Asegúrate que la ruta es correcta
+                    "Assets/Assets/Tipo_P/Tipo_Veneno.png"   // Asegúrate que la ruta es correcta
+                };
+            }
+            set { /* Los datos son fijos para este control específico */ }
         }
 
         public GengarJMC()
         {
-            this.mpSonidos=new MediaPlayer();
+            this.mpSonidos = new MediaPlayer();
             this.InitializeComponent();
+            // Si tbNombrePokemon.Text no se establece en XAML, puedes establecerlo aquí:
+            // this.Nombre = "Gengar"; 
         }
 
         private void ControlTeclas(object sender, KeyRoutedEventArgs e)
@@ -161,7 +182,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
                 //Ataque debil
                 case VirtualKey.Number1:
                     sbAtaqueDebil.Begin();
-                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/AtaqueDebil.mp3"));
+                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/AtaqueDebil.mp3"));
                     mpSonidos.Play();
                     break;
 
@@ -172,14 +193,14 @@ namespace IPO2_EntregaGrupal.PokemonControls
                     sbParticulas.RepeatBehavior = new RepeatBehavior(2);
                     sbParticulas.Begin();
                     sbAtaqueFuerte.Begin();
-                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/AtaqueFuerte.mp3"));
+                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/AtaqueFuerte.mp3"));
                     mpSonidos.Play();
                     break;
 
                 //Escudo
                 case VirtualKey.Number3:
                     sbEscudo.Begin();
-                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Escudo.mp3"));
+                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Escudo.mp3"));
                     mpSonidos.Play();
                     break;
 
@@ -189,20 +210,20 @@ namespace IPO2_EntregaGrupal.PokemonControls
                     sbParticulas.RepeatBehavior = new RepeatBehavior(3);
                     sbParticulas.Begin();
                     sbDescanso.Begin();
-                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Curacion.mp3"));
+                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Curacion.mp3"));
                     mpSonidos.Play();
                     break;
 
                 //Herido
                 case VirtualKey.Number5:
-                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Herido.mp3"));
+                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Herido.mp3"));
                     mpSonidos.Play();
                     sbHerido.Begin();
                     break;
 
                 //Cansado
                 case VirtualKey.Number6:
-                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Cansado.mp3"));
+                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Cansado.mp3"));
                     mpSonidos.Play();
                     if (eDienteRoto.Visibility == Visibility.Visible)
                     {
@@ -217,7 +238,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
                 //Derrotado
                 case VirtualKey.Number7:
-                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Derrotado.mp3"));
+                    mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Derrotado.mp3"));
                     mpSonidos.Play();
                     sbDerrotado.Begin();
                     break;
@@ -490,7 +511,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
         public void animacionAtaqueFlojo()
         {
             sbAtaqueDebil.Begin();
-            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/AtaqueDebil.mp3"));
+            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/AtaqueDebil.mp3"));
             mpSonidos.Play();
         }
 
@@ -500,14 +521,14 @@ namespace IPO2_EntregaGrupal.PokemonControls
             sbParticulas.RepeatBehavior = new RepeatBehavior(2);
             sbParticulas.Begin();
             sbAtaqueFuerte.Begin();
-            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/AtaqueFuerte.mp3"));
+            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/AtaqueFuerte.mp3"));
             mpSonidos.Play();
         }
 
         public void animacionDefensa()
         {
             sbEscudo.Begin();
-            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Escudo.mp3"));
+            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Escudo.mp3"));
             mpSonidos.Play();
         }
 
@@ -517,13 +538,13 @@ namespace IPO2_EntregaGrupal.PokemonControls
             sbParticulas.RepeatBehavior = new RepeatBehavior(3);
             sbParticulas.Begin();
             sbDescanso.Begin();
-            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Curacion.mp3"));
+            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Curacion.mp3"));
             mpSonidos.Play();
         }
 
         public void animacionCansado()
         {
-            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Cansado.mp3"));
+            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Cansado.mp3"));
             mpSonidos.Play();
             if (eDienteRoto.Visibility == Visibility.Visible)
             {
@@ -549,7 +570,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
         public void animacionHerido()
         {
-            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Herido.mp3"));
+            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Herido.mp3"));
             mpSonidos.Play();
             sbHerido.Begin();
         }
@@ -566,7 +587,7 @@ namespace IPO2_EntregaGrupal.PokemonControls
 
         public void animacionDerrota()
         {
-            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("Assets/AssetsGengarJMC/Sounds/Derrotado.mp3"));
+            mpSonidos.Source = MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/AssetsGengarJMC/Sounds/Derrotado.mp3"));
             mpSonidos.Play();
             sbDerrotado.Begin();
         }
