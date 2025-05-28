@@ -5,6 +5,7 @@
     xmlns:local="using:IPO2_EntregaGrupal"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pokemonControls="using:IPO2_EntregaGrupal.PokemonControls"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -22,18 +23,18 @@
         <ScrollViewer Grid.Row="1" VerticalScrollMode="Auto">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="500"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="500"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
 
-                <!-- Imagen del Pokémon -->
-                <Image x:ConnectionId='3' x:Name="imgPokemon" Grid.Row="0" Grid.Column="0"
-                       Width="200" Height="200" Margin="0,0,20,20" 
-                       Stretch="Uniform" VerticalAlignment="Top"/>
+                <!-- Contenedor para el UserControl del Pokémon -->
+                <Grid x:ConnectionId='3' x:Name="contenedorPokemon" Grid.Row="0" Grid.Column="0">
+                    <!-- Aquí se cargará dinámicamente el UserControl específico del Pokémon -->
+                </Grid>
 
                 <!-- Información del Pokémon -->
                 <Grid Grid.Row="0" Grid.Column="1">
