@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio
 
@@ -404,6 +404,3 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio
-=======
-.vs/
->>>>>>> 0a43bf69b7b224bd4f1fb92276b13ad70a37531a

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Reflection;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
@@ -16,7 +15,11 @@ namespace IPO2_EntregaGrupal
         private Dictionary<string, Type> mapaUserControls = new Dictionary<string, Type>(StringComparer.OrdinalIgnoreCase)
         {
             // Aquí agregaremos los Pokémon que tienen UserControl
-            { "Dunsparce", typeof(PokemonControls.DunsparcePCA) }
+            { "Bulbasaur", typeof(PokemonControls.BulbasaurRH) },
+            { "Dunsparce", typeof(PokemonControls.DunsparcePCA) },
+            { "Gengar", typeof(PokemonControls.GengarJMC) },
+            { "Swablu", typeof(PokemonControls.SwabluSCP) },
+            { "Victini", typeof(PokemonControls.VictiniLDM) }
             // Añade más Pokémon según los UserControls disponibles
         };
 
@@ -47,29 +50,8 @@ namespace IPO2_EntregaGrupal
             txtEvolucion.Text = pokemon.Evolucion;
             txtDescripcion.Text = pokemon.Descripcion;
 
-<<<<<<< HEAD
             // Mostramos el UserControl del Pokémon
-            // Asegúrate de que el objeto 'pokemon' que se pasa a esta página 
-            // sea la instancia real del UserControl y que implemente iPokemonAdapter.
-            if (pokemon is UserControl pokemonControl)
-            {
-                pokemonUserControlContainer.Content = pokemonControl;
-            }
-            else if (!string.IsNullOrEmpty(pokemon.Imagen)) // Fallback si no es un UserControl (opcional)
-            {
-                // Si prefieres no tener un fallback a la imagen, puedes eliminar este bloque else-if.
-                // Esto es en caso de que algunos Pokémon sigan usando imágenes y no UserControls.
-                var image = new Image
-                {
-                    Source = new BitmapImage(new Uri(pokemon.Imagen)),
-                    Stretch = Windows.UI.Xaml.Media.Stretch.Uniform
-                };
-                pokemonUserControlContainer.Content = image;
-            }
-=======
-            // Intentamos mostrar el UserControl específico del Pokémon
             MostrarUserControlPokemon();
->>>>>>> 0a43bf69b7b224bd4f1fb92276b13ad70a37531a
 
             // Mostramos los iconos de tipo
             if (pokemon.IconosTipo != null && pokemon.IconosTipo.Count > 0)
@@ -80,9 +62,6 @@ namespace IPO2_EntregaGrupal
 
         private void MostrarUserControlPokemon()
         {
-            // Limpiamos el contenedor
-            contenedorPokemon.Children.Clear();
-
             // Verificamos si existe un UserControl para este Pokémon
             if (mapaUserControls.TryGetValue(pokemon.Nombre, out Type tipoUserControl))
             {
@@ -104,10 +83,10 @@ namespace IPO2_EntregaGrupal
                         pokemonControl.verNombre(true);
                     }
 
-                    // Añadimos el control al contenedor
-                    contenedorPokemon.Children.Add(userControl);
+                    // Asignamos el control al contenedor
+                    pokemonUserControlContainer.Content = userControl;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     // Si falla, mostramos la imagen estática como fallback
                     MostrarImagenPokemon();
@@ -135,7 +114,7 @@ namespace IPO2_EntregaGrupal
             }
 
             // Añadimos la imagen al contenedor
-            contenedorPokemon.Children.Add(imgPokemon);
+            pokemonUserControlContainer.Content = imgPokemon;
         }
 
         private void btnVolver_Click(object sender, RoutedEventArgs e)
